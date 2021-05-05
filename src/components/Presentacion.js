@@ -2,7 +2,7 @@ import "../assets/css/Presentacion.css";
 
 const Presentacion = () => {
   return (
-    <div className="presentacion-container">
+    <div id="presentacion" className="presentacion-container">
       <h1 className="presentacion-titulo">Presentación</h1>
       <p className="presentacion-texto">
         ¡Hola, me llamo Guille! <br></br>

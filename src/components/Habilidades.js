@@ -2,7 +2,7 @@ import "../assets/css/Habilidades.css";
 
 const Habilidades = () => {
   return (
-    <div className="habilidades-container">
+    <div id="habilidades" className="habilidades-container">
       <div className="habilidades-texto-container">
         <h1 className="habilidades-titulo">Habilidades</h1>
         <p className="habilidades-texto">

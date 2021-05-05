@@ -1,11 +1,12 @@
 import "../assets/css/Header.css";
 import videoheader from "../assets/images/video-fondo-header.mp4";
 
+import { Link } from "react-scroll";
 import Typed from "react-typed";
 
 const Header = () => {
   return (
-    <div className="header-container">
+    <div id="inicio" className="header-container">
       <div className="video-container">
         <video loop autoPlay muted>
           <source src={videoheader} type="video/mp4" />
@@ -30,9 +31,15 @@ const Header = () => {
           />
         </div>
         <div className="header-btn">
-          <a href="/" className="btn-main-header">
+          <Link
+            smooth={true}
+            offset={0}
+            to="contacto"
+            href="/"
+            className="btn-main-header"
+          >
             ¡Contacta conmigo!
-          </a>
+          </Link>
         </div>
       </div>
     </div>

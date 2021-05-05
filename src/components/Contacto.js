@@ -1,49 +1,12 @@
-import { useForm } from "react-hook-form";
-import { useState } from "react";
-
 import "../assets/css/Contacto.css";
 import linkedin from "../assets/images/social-linkedin.svg";
 import github from "../assets/images/github.svg";
 import telefono from "../assets/images/phone.svg";
 import email from "../assets/images/at.svg";
 
-import emailjs from "emailjs-com";
-
 const Contacto = () => {
-  const [successMessage, setSuccessMessage] = useState("");
-  const { register, handleSubmit, errors } = useForm();
-
-  const serviceID = "service_ID";
-  const templateID = "template_ID";
-  const userID = "user_dMcGZw81db3LA3TD5OLAl";
-
-  const onSubmit = (data, r) => {
-    sendEmail(
-      serviceID,
-      templateID,
-      {
-        nombre: data.nombre,
-        email: data.email,
-        asunto: data.asunto,
-        mensaje: data.mensaje,
-      },
-      userID
-    );
-    r.target.reset();
-  };
-
-  const sendEmail = (serviceID, templateID, variables, userID) => {
-    emailjs.send(serviceID, templateID, variables, userID).then(
-      (result) => {
-        console.log(result.text);
-      },
-      (error) => {
-        console.log(error.text);
-      }
-    );
-  };
   return (
-    <div className="contacto-container">
+    <div id="contacto" className="contacto-container">
       <h1 className="contacto-titulo">Contacto</h1>
 
       <div className="contacto-content">

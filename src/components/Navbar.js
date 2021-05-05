@@ -1,5 +1,6 @@
 import "../assets/css/Navbar.css";
 import logoel from "../assets/images/logoel.png";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
@@ -13,38 +14,74 @@ const Navbar = () => {
       <nav className="navbar-links-container">
         <ul className="navbar-links-ul">
           <li className="navbar-links-li">
-            <a href="/" className="navbar-link">
+            <Link
+              smooth={true}
+              offset={0}
+              to="inicio"
+              href="/"
+              className="navbar-link"
+            >
               Inicio
-            </a>
+            </Link>
           </li>
           <li className="navbar-links-li">
-            <a href="/" className="navbar-link">
+            <Link
+              smooth={true}
+              offset={-155}
+              to="presentacion"
+              href="/"
+              className="navbar-link"
+            >
               Presentación
-            </a>
+            </Link>
           </li>
 
           <li className="navbar-links-li">
-            <a href="/" className="navbar-link">
+            <Link
+              smooth={true}
+              offset={-90}
+              to="habilidades"
+              href="/"
+              className="navbar-link"
+            >
               Habilidades
-            </a>
+            </Link>
           </li>
 
           <li className="navbar-links-li">
-            <a href="/" className="navbar-link">
+            <Link
+              smooth={true}
+              offset={-90}
+              to="experiencia"
+              href="/"
+              className="navbar-link"
+            >
               Experiencia
-            </a>
+            </Link>
           </li>
 
           <li className="navbar-links-li">
-            <a href="/" className="navbar-link">
+            <Link
+              smooth={true}
+              offset={-90}
+              to="portfolio"
+              href="/"
+              className="navbar-link"
+            >
               Portfolio
-            </a>
+            </Link>
           </li>
 
           <li className="navbar-links-li">
-            <a href="/" className="navbar-link">
+            <Link
+              smooth={true}
+              offset={-10}
+              to="contacto"
+              href="/"
+              className="navbar-link"
+            >
               Contacto
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>

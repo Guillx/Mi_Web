@@ -6,7 +6,7 @@ import giffy from "../assets/images/giffy.png";
 
 const Portfolio = () => {
   return (
-    <div className="portfolio-container">
+    <div id="portfolio" className="portfolio-container">
       <div className="portfolio-texto-container">
         <h1 className="portfolio-titulo">Portfolio</h1>
         <p className="portfolio-texto">
@@ -18,21 +18,6 @@ const Portfolio = () => {
       </div>
 
       <div className="portfolio-cards-container">
-        <div className="card-container">
-          <a href="/">
-            <img className="img-card" src={netflix} alt="img-card"></img>
-            <h3 className="portfolio-card-title">Netflix Clone</h3>
-            <p className="portfolio-card-description">
-              Clon de la aplicación web de Netflix, con buscador, subscripción y
-              puntuación.
-            </p>
-            {/* <FontAwesomeIcon
-              className="portfolio-icon"
-              icon={faSearchPlus}
-            ></FontAwesomeIcon> */}
-          </a>
-        </div>
-
         <div className="card-container">
           <a href="/">
             <img className="img-card" src={pixabay} alt="img-card"></img>
@@ -65,21 +50,6 @@ const Portfolio = () => {
           <a href="/">
             <img className="img-card" src={nopicimg} alt="img-card"></img>
             <h3 className="portfolio-card-title">Lorem Ipsum 4</h3>
-            <p className="portfolio-card-description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a
-              fermentum enim.
-            </p>
-            {/* <FontAwesomeIcon
-              className="portfolio-icon"
-              icon={faSearchPlus}
-            ></FontAwesomeIcon> */}
-          </a>
-        </div>
-
-        <div className="card-container">
-          <a href="/">
-            <img className="img-card" src={nopicimg} alt="img-card"></img>
-            <h3 className="portfolio-card-title">Lorem Ipsum 5</h3>
             <p className="portfolio-card-description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a
               fermentum enim.
