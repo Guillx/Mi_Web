@@ -1,0 +1,55 @@
+.presentacion-container {
+  width: 100%;
+
+  position: relative;
+  margin-top: 380px;
+}
+
+.presentacion-titulo {
+  font-size: 50px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+
+  width: 60%;
+  margin: 450px auto 0px auto;
+  padding-bottom: 10px;
+
+  text-align: center;
+
+  border-bottom: 1px solid rgb(24, 24, 24);
+  color: rgb(24, 24, 24);
+}
+
+.presentacion-texto {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  margin: 50px auto;
+  text-align: justify;
+  line-height: 43px;
+  justify-content: left;
+  width: 60%;
+}
+
+.presentacion-video-container {
+  width: 65%;
+  margin: 20px auto 0px auto;
+  padding: 20px;
+}
+
+.presentacion-video {
+  width: 100%;
+  height: 600px;
+  margin-bottom: -30px;
+  border-radius: 5px;
+}
+
+.link-presentacion-texto {
+  text-decoration: none;
+  color: var(--primarygreen);
+}
+.link-presentacion-texto:hover {
+  font-style: italic;
+  text-decoration: none;
+  color: var(--primarygreen);
+}

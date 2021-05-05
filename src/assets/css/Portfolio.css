@@ -1,0 +1,158 @@
+.portfolio-container {
+  background-color: rgb(5, 6, 8, 0.9);
+  color: white;
+  padding-bottom: 20px;
+}
+
+.portfolio-texto-container {
+  margin: 15px 0;
+  border: 2px solid rgba(255, 0, 0, 0);
+}
+
+.portfolio-titulo {
+  font-size: 50px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+
+  width: 60%;
+  margin: 50px auto 50px auto;
+  padding-bottom: 10px;
+
+  text-align: center;
+
+  border-bottom: 1px solid rgb(219, 219, 219);
+  color: rgb(219, 219, 219);
+}
+
+.portfolio-texto {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  margin: 20px auto;
+  line-height: 43px;
+  justify-content: left;
+  width: 60%;
+  text-align: justify;
+  font-weight: 200;
+}
+
+.portfolio-cards-container {
+  width: 67%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card-container {
+  font-family: "Poppins", sans-serif;
+  margin: 20px;
+  border-top: 2px solid var(--primarygreen);
+  border-right: 2px solid var(--primarygreen);
+  border-left: 2px solid var(--primarygreen);
+  border-bottom: 10px solid var(--primarygreen);
+  border-radius: 6px;
+  padding: 10px;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+  box-shadow: 0px 0px 7px var(--primarygreen);
+  /* background-color: var(--primarygreen); */
+}
+
+.card-container:hover {
+  animation: bounce 1s;
+  background-color: rgba(51, 51, 51, 0.418);
+  box-shadow: 0px 0px 25px var(--primarygreen);
+}
+
+.card-container a {
+  text-decoration: none;
+  color: white;
+}
+
+.img-card {
+  width: 98%;
+  height: 270px;
+  object-fit: cover;
+  margin: 5px;
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0);
+}
+.card-container:hover .img-card {
+  filter: blur(1px);
+}
+
+.portfolio-card-title {
+  font-family: "Ubuntu", sans-serif;
+  border-bottom: 1px solid rgba(243, 243, 243, 0.226);
+  padding: 5px 7px 5px 12px;
+  margin: 10px 0;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 24px;
+}
+
+.portfolio-card-description {
+  font-family: "Ubuntu", sans-serif;
+  font-style: italic;
+  padding: 5px 7px 5px 12px;
+  margin: 10px 0;
+  font-weight: 100;
+  letter-spacing: 1.5px;
+  font-size: 18px;
+  height: 75px;
+}
+
+.card-container:hover .portfolio-card-description {
+  font-style: normal;
+  filter: blur(2px);
+}
+
+.card-container:hover .portfolio-card-title {
+  opacity: 0.2;
+  filter: blur(2px);
+}
+.card-container:hover .portfolio-card-description {
+  opacity: 0.2;
+}
+.card-container:hover .img-card {
+  opacity: 0.1;
+}
+
+.portfolio-icon {
+  position: absolute;
+  opacity: 0;
+  margin-left: 145px;
+  margin-top: -290px;
+  color: black;
+  font-size: 100px;
+  color: var(--primarygreen);
+}
+
+.portfolio-icon:hover {
+  font-size: 115px;
+}
+.portfolio-icon:hover .img-card {
+  font-size: 115px;
+}
+
+.card-container:hover .portfolio-icon {
+  opacity: 1;
+}
+@keyframes bounce {
+  0%,
+  20%,
+  60%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+
+  80% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}

@@ -1,0 +1,120 @@
+.contacto-container {
+  width: 100%;
+
+  position: relative;
+  margin-top: 80px;
+}
+
+.contacto-titulo {
+  font-size: 50px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+
+  width: 60%;
+  margin: 0px auto 20px auto;
+  padding-bottom: 10px;
+
+  text-align: center;
+
+  border-bottom: 1px solid rgb(24, 24, 24);
+  color: rgb(24, 24, 24);
+}
+
+.contacto-content {
+  font-family: "Poppins", sans-serif;
+  text-align: justify;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 40px;
+}
+
+.texto-izq {
+  width: 40%;
+  margin: 70px 0px 0px 170px;
+}
+
+.contacto-links {
+  display: flex;
+  margin: auto 150px;
+}
+
+.contacto-links a {
+  text-decoration: none;
+
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+}
+
+.contacto-links img {
+  width: 50px;
+  margin-top: 20px;
+  margin-bottom: -10px;
+}
+
+.contacto-links p {
+  font-size: 22px;
+  color: black;
+}
+.contacto-options-container {
+  width: 55%;
+  margin: 120px auto;
+  text-align: left;
+}
+
+.contacto-option {
+  margin-bottom: 50px;
+  margin-left: 150px;
+  width: 400px;
+  font-size: 26px;
+}
+
+.contacto-option img {
+  height: 50px;
+  margin-right: 20px;
+}
+/* 
+
+.contacto-form .col-md-8 {
+  margin: 10px 70px;
+}
+
+.contacto-form input {
+  margin: 20px 10px;
+  height: 50px;
+  border: 1px solid rgb(70, 69, 69);
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+.contacto-form input:focus {
+  background-color: transparent;
+  border: 1px solid rgb(70, 69, 69);
+}
+
+.contacto-form textarea {
+  margin: 0px 10px;
+  height: 150px;
+  max-height: 150px;
+  min-height: 150px;
+  border: 1px solid rgb(70, 69, 69);
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+.contacto-form textarea:focus {
+  background-color: transparent;
+  border: 1px solid rgb(70, 69, 69);
+}
+
+.contact-btn {
+  width: 100%;
+  padding: 0px 40px;
+  font-size: 19px;
+  border-radius: 6px;
+  margin: 10px;
+  background-color: var(--primarygreen);
+} */

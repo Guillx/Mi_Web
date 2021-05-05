@@ -1,0 +1,137 @@
+.habilidades-container {
+  background-color: rgb(5, 6, 8, 0.9);
+  color: white;
+  padding-bottom: 20px;
+}
+
+.habilidades-texto-container {
+  margin: 10px 0;
+  border: 2px solid rgba(255, 0, 0, 0);
+}
+
+.habilidades-titulo {
+  font-size: 50px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+
+  width: 60%;
+  margin: 50px auto 50px auto;
+  padding-bottom: 10px;
+
+  text-align: center;
+
+  border-bottom: 1px solid rgb(219, 219, 219);
+  color: rgb(219, 219, 219);
+}
+
+.habilidades-texto {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  margin: 20px auto;
+  line-height: 43px;
+  justify-content: left;
+  width: 60%;
+  text-align: justify;
+  font-weight: 200;
+}
+
+.habilidades-bars-container {
+  width: 40%;
+  margin: auto;
+}
+
+.entretitulo-bars {
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+  margin: 70px 0 0 0;
+  border-bottom: 1px solid white;
+}
+
+.habilidades-bars {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  border-bottom: 1px solid white;
+  padding-bottom: 17px;
+  border-radius: 25px;
+}
+
+.bars-info {
+  margin-bottom: 3px;
+}
+
+.bars-info-percent {
+  float: right;
+}
+
+.line {
+  height: 25px;
+  width: 100%;
+  background-color: rgb(155, 154, 154);
+  position: relative;
+}
+
+.line::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 80%;
+  left: 0;
+  top: 0;
+  border-right: 1px solid black;
+  background-color: var(--primarygreen);
+}
+
+.html::before {
+  width: 60%;
+}
+
+.css::before {
+  width: 50%;
+}
+
+.js::before {
+  width: 40%;
+}
+
+.sql::before {
+  width: 30%;
+}
+
+.node::before {
+  width: 40%;
+}
+
+.react::before {
+  width: 50%;
+}
+
+.atencioncliente::before {
+  width: 90%;
+}
+
+.español::before {
+  width: 95%;
+}
+
+.gallego::before {
+  width: 95%;
+}
+
+.ingles::before {
+  width: 60%;
+}
+
+.aleman::before {
+  width: 30%;
+}
+
+.creatividad::before {
+  width: 80%;
+}
+
+.adaptabilidad::before {
+  width: 80%;
+}

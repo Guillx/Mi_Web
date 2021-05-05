@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+/* FONTS */
+
+/* Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+/* Ubuntu */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+
+/* Montserrat */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap");
+
+/* Bungee */
+@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
+/********************/
+
+/* Reset de Estilos */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  /* text-decoration: none; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* Variables */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+:root {
+  --primarygreen: rgb(67, 169, 57);
 }

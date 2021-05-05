@@ -1,0 +1,9 @@
+.footer-container {
+  height: 80px;
+  background-color: black;
+  color: white;
+}
+
+.footer-container h5 {
+  text-align: center;
+}
