@@ -60,6 +60,21 @@ const Portfolio = () => {
             ></FontAwesomeIcon> */}
           </a>
         </div>
+
+        <div className="card-container">
+          <a href="/">
+            <img className="img-card" src={nopicimg} alt="img-card"></img>
+            <h3 className="portfolio-card-title">Lorem Ipsum 5</h3>
+            <p className="portfolio-card-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a
+              fermentum enim.
+            </p>
+            {/* <FontAwesomeIcon
+              className="portfolio-icon"
+              icon={faSearchPlus}
+            ></FontAwesomeIcon> */}
+          </a>
+        </div>
       </div>
     </div>
   );

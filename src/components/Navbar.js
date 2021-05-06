@@ -1,8 +1,11 @@
 import "../assets/css/Navbar.css";
 import logoel from "../assets/images/logoel.png";
 import { Link } from "react-scroll";
+import { useState } from "react";
 
 const Navbar = () => {
+  const [verMenu, setVerMenu] = useState(true);
+
   return (
     <div className="navbar-container">
       <div className="logo-container">
@@ -13,7 +16,7 @@ const Navbar = () => {
       </div>
       <nav className="navbar-links-container">
         <ul className="navbar-links-ul">
-          <li className="navbar-links-li">
+          <li className="navbar-links-li" id={verMenu ? "hidden" : ""}>
             <Link
               smooth={true}
               offset={0}

@@ -77,3 +77,69 @@
   color: white;
   /* font-style: italic; */
 }
+
+/********** QUERIES *********/
+@media only screen and (max-width: 1550px) {
+  .navbar-container {
+    padding: 0px 50px 0px 50px;
+  }
+
+  .navbar-link {
+    margin: auto 17px;
+  }
+}
+
+@media only screen and (max-width: 1350px) {
+  .navbar-container {
+    padding: 0px 10px 0px 25px;
+  }
+
+  .navbar-link {
+    margin: auto 15px;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .navbar-container {
+    padding: 0px 0px 0px 15px;
+  }
+
+  .logo-img {
+    height: 55px;
+    width: 55px;
+    margin-top: 7px;
+  }
+
+  .logo-name {
+    font-size: 35px;
+    margin: auto 0 auto 10px;
+    letter-spacing: 1px;
+  }
+
+  .navbar-link {
+    margin: auto 0px;
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .navbar-container {
+    padding: 0px 0px 0px 50px;
+  }
+
+  .logo-img {
+    height: 55px;
+    width: 55px;
+    margin-top: 7px;
+  }
+
+  .logo-name {
+    font-size: 35px;
+    margin: auto 0 auto 10px;
+    letter-spacing: 1px;
+  }
+
+  .navbar-link {
+    display: none;
+  }
+}
