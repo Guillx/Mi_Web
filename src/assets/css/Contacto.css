@@ -33,7 +33,7 @@
 
 .texto-izq {
   width: 40%;
-  margin: 70px 0px 0px 170px;
+  margin: 70px 0px 0px 300px;
 }
 
 .contacto-links {
@@ -48,6 +48,9 @@
   margin: auto;
   text-align: center;
 }
+.contacto-links a:hover p {
+  border-bottom: 1px solid black;
+}
 
 .contacto-links img {
   width: 50px;
@@ -56,9 +59,13 @@
 }
 
 .contacto-links p {
-  font-size: 22px;
+  font-size: 20px;
+  margin: 7px auto;
+  padding: 0 10px;
   color: black;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
 }
+
 .contacto-options-container {
   width: 55%;
   margin: 120px auto;
@@ -69,11 +76,14 @@
   margin-bottom: 50px;
   margin-left: 150px;
   width: 400px;
-  font-size: 26px;
+  font-size: 24px;
+
+  border-bottom: 1px solid rgba(0, 0, 0, 0.911);
+  padding-bottom: 10px;
 }
 
 .contacto-option img {
-  height: 50px;
+  height: 40px;
   margin-right: 20px;
 }
 /* 
