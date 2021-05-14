@@ -15,7 +15,7 @@
 .header-content {
   width: 40%;
 
-  margin: 340px auto auto 150px;
+  margin: 300px auto auto 150px;
   padding: 0px 10px;
 }
 
@@ -70,6 +70,18 @@
 }
 
 /********** QUERIES *********/
+@media only screen and (max-width: 1800px) {
+  .header-content {
+    margin: 260px auto auto 150px;
+  }
+}
+
+@media only screen and (max-width: 1700px) {
+  .header-content {
+    margin: 200px auto auto 150px;
+  }
+}
+
 @media only screen and (max-width: 1550px) {
   .header-content {
     width: 50%;
@@ -97,39 +109,59 @@
   }
 
   .header-title {
-    font-size: 50px;
+    font-size: 70px;
     line-height: 75px;
   }
 
+  .header-typed-text {
+    font-size: 35px;
+  }
+
   .header-text {
-    font-size: 30px;
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .header-title {
+    font-size: 60px;
+    line-height: 75px;
+  }
+
+  .header-typed-text {
+    font-size: 35px;
+  }
+
+  .header-text {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+  .header-content {
+    width: 60%;
+
+    margin: 150px auto auto 100px;
+    padding: 0px 10px;
+  }
+
+  .header-title {
+    font-size: 55px;
+    line-height: 70px;
   }
 
   .header-typed-text {
     font-size: 30px;
   }
 
-  .header-btn {
-    margin-top: 40px;
-  }
-
-  .btn-main-header {
-    font-size: 18px;
+  .header-text {
+    font-size: 30px;
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 700px) {
   .header-content {
-    width: 100%;
-
-    margin: 150px auto auto 100px;
-    padding: 0px 10px;
-  }
-}
-
-@media only screen and (max-width: 680px) {
-  .header-content {
-    margin: 110px auto auto 100px;
+    margin: 140px auto auto 100px;
   }
 
   .header-title {
@@ -138,7 +170,7 @@
   }
 
   .header-text {
-    margin-top: -20px;
+    margin-top: 0px;
     font-size: 30px;
   }
 
@@ -147,11 +179,107 @@
   }
 
   .header-btn {
-    margin-top: -10px;
+    margin-top: 0px;
   }
 
   .btn-main-header {
     font-size: 16px;
-    margin: auto 10px;
+
+    padding: 10px 30px;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 543px) {
+  .header-content {
+    width: 70%;
+
+    margin: 120px auto auto 50px;
+    padding: 0px 10px;
+  }
+
+  .header-title {
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  .header-typed-text {
+    font-size: 25px;
+  }
+
+  .header-text {
+    font-size: 25px;
+  }
+
+  .btn-main-header {
+    font-size: 16px;
+
+    padding: 7px 20px;
+    margin: 0;
+
+    background-color: rgb(67, 169, 57);
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .header-content {
+    width: 70%;
+
+    margin: 110px auto auto 50px;
+    padding: 0px 10px;
+  }
+
+  .header-title {
+    font-size: 35px;
+    line-height: 55px;
+  }
+
+  .header-typed-text {
+    font-size: 20px;
+  }
+
+  .header-text {
+    font-size: 20px;
+  }
+
+  .btn-main-header {
+    font-size: 15px;
+
+    padding: 6px 15px;
+    margin: 0;
+
+    background-color: rgb(67, 169, 57);
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .header-content {
+    width: 80%;
+
+    margin: 100px auto auto 40px;
+    padding: 0px 10px;
+  }
+
+  .header-title {
+    font-size: 30px;
+    line-height: 50px;
+  }
+
+  .header-typed-text {
+    font-size: 18px;
+  }
+
+  .header-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .btn-main-header {
+    font-size: 15px;
+
+    padding: 6px 12px;
+    margin: 0;
+
+    background-color: rgb(67, 169, 57);
   }
 }

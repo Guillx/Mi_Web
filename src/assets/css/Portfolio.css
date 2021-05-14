@@ -40,10 +40,13 @@
   padding: 30px 0;
   margin: 0px auto;
   /* height: 600px; */
-  display: flex;
-  max-height: 750px;
-  min-height: 600px;
-  overflow-x: scroll;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+
+  max-height: 590px;
+  min-height: 590px;
+  overflow-y: scroll;
   /* grid-template-columns: repeat(3, 1fr); */
   /* overflow-y: scroll;
   border: 2px solid rgba(255, 255, 255, 0.178);
@@ -67,8 +70,8 @@
 }
 
 .card-container {
-  min-width: 370px;
-
+  width: 370px;
+  height: 480px;
   font-family: "Poppins", sans-serif;
   margin: 40px 20px;
   border-top: 2px solid var(--primarygreen);
@@ -113,7 +116,7 @@
   margin: 10px 0;
   text-transform: uppercase;
   letter-spacing: 1.5px;
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .portfolio-card-description {
@@ -146,15 +149,16 @@
 .portfolio-icon {
   position: absolute;
   opacity: 0;
-  margin-left: 145px;
-  margin-top: -290px;
+  margin-left: 160px;
+  margin-top: -230px;
+
   color: black;
-  font-size: 100px;
+  font-size: 50px;
   color: var(--primarygreen);
 }
 
 .portfolio-icon:hover {
-  font-size: 115px;
+  font-size: 60px;
 }
 .portfolio-icon:hover .img-card {
   font-size: 115px;

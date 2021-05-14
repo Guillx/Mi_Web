@@ -1,8 +1,11 @@
 import "../assets/css/Portfolio.css";
 import nopicimg from "../assets/images/nopic.jpg";
-import netflix from "../assets/images/netflix.jpg";
-import pixabay from "../assets/images/pixabay.jpeg";
-import giffy from "../assets/images/giffy.png";
+// import netflix from "../assets/images/netflix.jpg";
+import picmovies from "../assets/images/pic-movies.png";
+import gifs from "../assets/images/gifs.png";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
 
 const Portfolio = () => {
   return (
@@ -20,29 +23,31 @@ const Portfolio = () => {
       <div className="portfolio-cards-container">
         <div className="card-container">
           <a href="/">
-            <img className="img-card" src={pixabay} alt="img-card"></img>
-            <h3 className="portfolio-card-title">Pixabay Clone</h3>
+            <img className="img-card" src={picmovies} alt="img-card"></img>
+            <h3 className="portfolio-card-title">Buscador de películas</h3>
             <p className="portfolio-card-description">
-              Web de fotos con la API de Pixabay.
+              Web realizada con la API de imDb
             </p>
-            {/* <FontAwesomeIcon
+
+            <FontAwesomeIcon
               className="portfolio-icon"
               icon={faSearchPlus}
-            ></FontAwesomeIcon> */}
+            ></FontAwesomeIcon>
           </a>
         </div>
 
         <div className="card-container">
           <a href="/">
-            <img className="img-card" src={giffy} alt="img-card"></img>
+            <img className="img-card" src={gifs} alt="img-card"></img>
             <h3 className="portfolio-card-title">Giffy Clone</h3>
             <p className="portfolio-card-description">
               Web de Gifs con la API de Ghiffy.
             </p>
-            {/* <FontAwesomeIcon
+
+            <FontAwesomeIcon
               className="portfolio-icon"
               icon={faSearchPlus}
-            ></FontAwesomeIcon> */}
+            ></FontAwesomeIcon>
           </a>
         </div>
 
@@ -54,10 +59,11 @@ const Portfolio = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a
               fermentum enim.
             </p>
-            {/* <FontAwesomeIcon
+
+            <FontAwesomeIcon
               className="portfolio-icon"
               icon={faSearchPlus}
-            ></FontAwesomeIcon> */}
+            ></FontAwesomeIcon>
           </a>
         </div>
 
@@ -69,10 +75,11 @@ const Portfolio = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a
               fermentum enim.
             </p>
-            {/* <FontAwesomeIcon
+
+            <FontAwesomeIcon
               className="portfolio-icon"
               icon={faSearchPlus}
-            ></FontAwesomeIcon> */}
+            ></FontAwesomeIcon>
           </a>
         </div>
       </div>

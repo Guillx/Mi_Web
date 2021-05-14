@@ -85,7 +85,7 @@
 }
 
 .html::before {
-  width: 60%;
+  width: 50%;
 }
 
 .css::before {
@@ -93,7 +93,7 @@
 }
 
 .js::before {
-  width: 40%;
+  width: 30%;
 }
 
 .sql::before {
@@ -101,11 +101,11 @@
 }
 
 .node::before {
-  width: 40%;
+  width: 30%;
 }
 
 .react::before {
-  width: 50%;
+  width: 40%;
 }
 
 .atencioncliente::before {

@@ -31,14 +31,14 @@ const Presentacion = () => {
           allowfullscreen
         ></iframe>
       </div>
-
+      {/* 
       <p className="presentacion-texto">
         Si quieres saber más cosas sobre mi, haz clic{" "}
         <a className="link-presentacion-texto" href="/">
           AQUÍ
         </a>
         .
-      </p>
+      </p> */}
     </div>
   );
 };
