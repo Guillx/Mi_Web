@@ -4,3 +4,7 @@ npm i bootstrap para Experiencia.js
 
 npm i swiper para el slider del portfolio
 npm i node-sass para el error con el swiper
+
+ICONS LINKEDIN ETC
+video portfolio component #2
+services component

@@ -1,4 +1,326 @@
-.portfolio-container {
+.portfolio-wrapper {
+  background-color: rgb(5, 6, 8, 0.9);
+  padding: 3rem 0;
+}
+
+.portfolio-titulo {
+  font-size: 50px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+
+  width: 60%;
+  margin: 30px auto 50px auto;
+  padding-bottom: 10px;
+
+  text-align: center;
+
+  border-bottom: 1px solid rgb(219, 219, 219);
+  color: rgb(219, 219, 219);
+}
+
+.portfolio-texto {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  margin: 20px auto;
+  line-height: 43px;
+  justify-content: left;
+  width: 65%;
+  text-align: justify;
+  font-weight: 200;
+  color: white;
+}
+
+.portfolio-image {
+  width: 19rem;
+  height: 12rem;
+
+  margin: 30px auto 0px auto;
+  padding: 2px;
+  border: 1px solid rgba(255, 255, 255, 0.479);
+  box-shadow: 0px 0px 3px white;
+}
+
+.portfolio-image:hover {
+  filter: blur(1px);
+}
+
+.portfolio-image-box {
+  position: relative;
+  margin: 1rem;
+}
+
+.portfolio-image-box:hover {
+  animation: bounce 1s;
+}
+
+.overflow {
+  width: 19rem;
+  height: 12rem;
+
+  margin: 30px auto 0px auto;
+  position: absolute;
+  opacity: 0;
+  background-color: black;
+  top: 0;
+  cursor: pointer;
+}
+
+.portfolio-image-box:hover .overflow {
+  opacity: 75%;
+  transition: 0.3s ease-in-out;
+}
+
+.portfolio-icon {
+  color: var(--primarygreen);
+
+  position: absolute;
+  opacity: 0;
+  margin-left: -165px;
+  margin-top: 115px;
+  font-size: 40px;
+}
+
+.portfolio-icon:hover {
+  font-size: 45px;
+  margin-left: -170px;
+  margin-top: 110px;
+}
+
+.portfolio-image-box:hover .portfolio-icon {
+  opacity: 90%;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+/* MODAL */
+
+.portfolio-image-popupbox {
+  min-width: 720;
+  height: 400px;
+  padding: 0 0.5rem;
+}
+
+.portfolio-text-popupbox {
+  width: 900px;
+  margin: 50px auto;
+  padding: 0 20px;
+  font-size: 19px;
+  line-height: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+b {
+  font-size: 18px;
+  padding: 0 0 0 20px;
+}
+
+.hyper-link-popupbox {
+  cursor: pointer;
+  color: var(--primarygreen);
+  font-size: 18px;
+}
+.hyper-link-popupbox:hover {
+  cursor: pointer;
+  color: green;
+}
+/**************/
+@keyframes bounce {
+  0%,
+  20%,
+  60%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  80% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+
+/********** QUERIES *********/
+
+@media only screen and (max-width: 1800px) {
+  .portfolio-texto {
+    font-size: 24px;
+
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .portfolio-image {
+    width: 17rem;
+    height: 11rem;
+  }
+
+  .overflow {
+    width: 17rem;
+    height: 11rem;
+
+    margin: 30px auto 0px auto;
+    position: absolute;
+    opacity: 0;
+    background-color: black;
+    top: 0;
+    cursor: pointer;
+  }
+
+  .portfolio-icon {
+    margin-left: -155px;
+    margin-top: 107px;
+    font-size: 37px;
+  }
+
+  .portfolio-icon:hover {
+    font-size: 40px;
+    margin-left: -155px;
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .portfolio-titulo {
+    font-size: 45px;
+    padding-bottom: 7px;
+  }
+
+  .portfolio-texto {
+    font-size: 21px;
+  }
+
+  .portfolio-image-box:hover {
+    animation: none;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .portfolio-titulo {
+    font-size: 40px;
+    padding-bottom: 5px;
+    margin: 0 auto;
+  }
+
+  .portfolio-texto {
+    font-size: 20px;
+    line-height: 38px;
+  }
+
+  .portfolio-icon {
+    margin-left: -145px;
+  }
+
+  .portfolio-icon:hover {
+    margin-left: -150px;
+  }
+}
+
+@media only screen and (max-width: 710px) {
+  .portfolio-titulo {
+    font-size: 38px;
+    padding-bottom: 0px;
+  }
+
+  .portfolio-texto {
+    font-size: 19px;
+    line-height: 35px;
+  }
+
+  .portfolio-image {
+    width: 24rem;
+    height: 14rem;
+
+    margin: 5px auto 0px auto;
+  }
+
+  .portfolio-image-box {
+    margin: 10px;
+  }
+
+  .overflow {
+    width: 24rem;
+    height: 14rem;
+
+    margin: 5px auto 0px auto;
+  }
+
+  .portfolio-icon {
+    margin-left: -160px;
+    margin-top: 95px;
+  }
+
+  .portfolio-icon:hover {
+    margin-left: -165px;
+    margin-top: 95px;
+  }
+}
+
+@media only screen and (max-width: 610px) {
+  .portfolio-titulo {
+    font-size: 35px;
+  }
+
+  .portfolio-texto {
+    font-size: 16px;
+    line-height: 30px;
+    width: 80%;
+  }
+
+  .portfolio-icon {
+    margin-left: -195px;
+  }
+
+  .portfolio-icon:hover {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .portfolio-titulo {
+    font-size: 32px;
+  }
+
+  .portfolio-texto {
+    font-size: 15px;
+    line-height: 30px;
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .portfolio-image {
+    width: 20rem;
+    height: 12rem;
+  }
+
+  .portfolio-image-box {
+    margin: 7px;
+  }
+
+  .overflow {
+    width: 20rem;
+    height: 12rem;
+  }
+
+  .portfolio-icon {
+    margin-left: -165px;
+    margin-top: 85px;
+  }
+
+  .portfolio-icon:hover {
+    margin-left: -172px;
+    margin-top: 80px;
+  }
+}
+
+/* .portfolio-container {
   background-color: rgb(5, 6, 8, 0.9);
   color: white;
   padding-bottom: 30px;
@@ -39,7 +361,7 @@
   width: 67%;
   padding: 30px 0;
   margin: 0px auto;
-  /* height: 600px; */
+ 
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(1, 1fr);
@@ -47,12 +369,6 @@
   max-height: 590px;
   min-height: 590px;
   overflow-y: scroll;
-  /* grid-template-columns: repeat(3, 1fr); */
-  /* overflow-y: scroll;
-  border: 2px solid rgba(255, 255, 255, 0.178);
-  border-radius: 10px;
-  padding: 10px 20px;
-  box-shadow: 2px 2px 5px rgb(255, 255, 255); */
 }
 
 .portfolio-cards-container::-webkit-scrollbar {
@@ -83,7 +399,6 @@
   transition: 0.2s ease-in-out;
   cursor: pointer;
   box-shadow: 0px 0px 7px var(--primarygreen);
-  /* background-color: var(--primarygreen); */
 }
 
 .card-container:hover {
@@ -185,4 +500,4 @@
     -webkit-transform: translateY(-15px);
     transform: translateY(-15px);
   }
-}
+} */
