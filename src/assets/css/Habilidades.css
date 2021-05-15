@@ -135,3 +135,160 @@
 .adaptabilidad::before {
   width: 80%;
 }
+
+/********** QUERIES *********/
+
+@media only screen and (max-width: 1250px) {
+  .habilidades-texto {
+    width: 70%;
+  }
+
+  .habilidades-bars-container {
+    width: 50%;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .habilidades-titulo {
+    font-size: 45px;
+    margin: 40px auto 40px auto;
+    padding-bottom: 7px;
+  }
+
+  .habilidades-texto {
+    font-size: 21px;
+  }
+
+  .entretitulo-bars {
+    font-size: 24px;
+
+    margin: 60px 0 0 0;
+  }
+
+  .habilidades-bars {
+    font-size: 19px;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .habilidades-titulo {
+    font-size: 40px;
+    padding-bottom: 5px;
+  }
+
+  .habilidades-texto {
+    font-size: 20px;
+    line-height: 38px;
+    width: 75%;
+  }
+
+  .habilidades-bars-container {
+    width: 55%;
+    margin: auto;
+  }
+
+  .entretitulo-bars {
+    font-size: 23px;
+
+    margin: 60px 0 0 0;
+  }
+
+  .habilidades-bars {
+    font-size: 18px;
+  }
+
+  .line {
+    height: 22px;
+  }
+}
+
+@media only screen and (max-width: 710px) {
+  .habilidades-titulo {
+    font-size: 38px;
+  }
+
+  .habilidades-texto {
+    font-size: 19px;
+    line-height: 35px;
+  }
+
+  .habilidades-bars-container {
+    width: 60%;
+    margin: auto;
+  }
+
+  .entretitulo-bars {
+    font-size: 22px;
+
+    margin: 60px 0 0 0;
+  }
+
+  .habilidades-bars {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .habilidades-titulo {
+    font-size: 35px;
+    margin: 20px auto;
+  }
+
+  .habilidades-texto {
+    font-size: 16px;
+    line-height: 30px;
+    width: 80%;
+  }
+
+  .habilidades-bars-container {
+    width: 65%;
+    margin: auto;
+  }
+
+  .entretitulo-bars {
+    font-size: 20px;
+
+    margin: 50px 0 0 0;
+  }
+
+  .habilidades-bars {
+    font-size: 16px;
+  }
+
+  .line {
+    height: 20px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .habilidades-titulo {
+    font-size: 32px;
+  }
+
+  .habilidades-texto {
+    font-size: 15px;
+    line-height: 30px;
+    width: 80%;
+  }
+
+  .habilidades-bars-container {
+    width: 75%;
+    margin: auto;
+  }
+
+  .entretitulo-bars {
+    font-size: 20px;
+
+    margin: 50px 0 0 0;
+  }
+
+  .habilidades-bars {
+    font-size: 15px;
+    margin: 17px auto;
+  }
+
+  .line {
+    height: 17px;
+  }
+}

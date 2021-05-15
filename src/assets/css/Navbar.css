@@ -143,3 +143,26 @@
     display: none;
   }
 }
+
+@media only screen and (max-width: 550px) {
+  .navbar-container {
+    padding: 0px 0px 0px 30px;
+    height: 70px;
+  }
+
+  .logo-img {
+    height: 45px;
+    width: 45px;
+    margin-top: 0px;
+  }
+
+  .logo-name {
+    font-size: 30px;
+    margin: auto 0 auto 10px;
+    letter-spacing: 1px;
+  }
+
+  .navbar-link {
+    display: none;
+  }
+}

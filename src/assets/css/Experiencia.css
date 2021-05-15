@@ -85,3 +85,92 @@
   font-size: 18px;
   color: rgb(53, 52, 52);
 }
+
+/********** QUERIES *********/
+
+@media only screen and (max-width: 1200px) {
+  .experiencia-titulo {
+    margin: 0px auto 0px auto;
+  }
+
+  .timeline-content {
+    padding: 5px 15px;
+  }
+
+  .timeline-content h3 {
+    font-size: 24px;
+  }
+
+  .timeline-content p {
+    line-height: 30px;
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .experiencia-titulo {
+    font-size: 45px;
+  }
+
+  .experience-wrapper::before {
+    display: none;
+  }
+
+  .timeline-block {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    clear: both;
+  }
+
+  .timeline-block-right {
+    float: left;
+  }
+
+  .timeline-block-left {
+    float: left;
+    direction: ltr;
+  }
+
+  .marker {
+    display: none;
+  }
+
+  .experience-wrapper {
+    margin: -50px auto;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .experiencia-titulo {
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .experiencia-titulo {
+    font-size: 40px;
+    padding-bottom: 5px;
+  }
+}
+
+@media only screen and (max-width: 710px) {
+  .experiencia-titulo {
+    font-size: 38px;
+    padding-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .experiencia-titulo {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .experiencia-titulo {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+}

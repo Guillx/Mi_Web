@@ -190,12 +190,17 @@
   }
 }
 
-@media only screen and (max-width: 543px) {
+@media only screen and (max-width: 550px) {
   .header-content {
     width: 70%;
 
-    margin: 120px auto auto 50px;
+    margin: 100px auto auto 50px;
     padding: 0px 10px;
+  }
+
+  .header-container video {
+    width: 100%;
+    border-top: 70px solid black;
   }
 
   .header-title {
@@ -225,7 +230,6 @@
   .header-content {
     width: 70%;
 
-    margin: 110px auto auto 50px;
     padding: 0px 10px;
   }
 
@@ -256,22 +260,22 @@
   .header-content {
     width: 80%;
 
-    margin: 100px auto auto 40px;
+    margin: 90px auto auto 40px;
     padding: 0px 10px;
   }
 
   .header-title {
-    font-size: 30px;
-    line-height: 50px;
+    font-size: 28px;
+    line-height: 45px;
   }
 
   .header-typed-text {
-    font-size: 18px;
+    font-size: 17px;
   }
 
   .header-text {
-    font-size: 18px;
-    margin-bottom: 20px;
+    font-size: 17px;
+    margin-bottom: 15px;
   }
 
   .btn-main-header {
