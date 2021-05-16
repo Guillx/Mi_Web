@@ -17,17 +17,22 @@ const Portfolio = () => {
   // proyecto 1
   const openPopupboxProyecto1 = () => {
     const content = (
-      <>
-        <h2>Proyecto 1</h2>
-        <img className="portfolio-image-popupbox" src={netflix} alt=""></img>
+      <div className="portfolio-popupbox-container">
+        <h2 className="titulo-portfolio-popupbox">Proyecto 1</h2>
+        <iframe
+          className="video-portfolio-popupbox"
+          src="https://www.youtube.com/embed/8BqA5DQp0j4"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
         <p className="portfolio-text-popupbox">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dui
           eros, faucibus ac enim ac, venenatis facilisis turpis. Aliquam erat
-          volutpat. Aliquam varius venenatis dolor. Duis sed cursus nibh.
-          Maecenas placerat laoreet tellus, sit amet rutrum neque fringilla
-          quis. Aliquam euismod elit quis dignissim volutpat. Sed et iaculis
-          odio, id.{" "}
+          volutpat.{" "}
         </p>
+
         <b>GitHub: </b>
         <a
           href="https://github.com/Guillx"
@@ -36,7 +41,7 @@ const Portfolio = () => {
         >
           https://github.com/Guillx
         </a>
-      </>
+      </div>
     );
     PopupboxManager.open({ content });
   };
@@ -52,16 +57,20 @@ const Portfolio = () => {
   // proyecto 2
   const openPopupboxProyecto2 = () => {
     const content = (
-      <>
-        <h2>Buscador de películas</h2>
-        <img className="portfolio-image-popupbox" src={picmovies} alt=""></img>
+      <div className="portfolio-popupbox-container">
+        <h2 className="titulo-portfolio-popupbox">Buscador de películas</h2>
+        <iframe
+          className="video-portfolio-popupbox"
+          src="https://www.youtube.com/embed/8BqA5DQp0j4"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
         <p className="portfolio-text-popupbox">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dui
           eros, faucibus ac enim ac, venenatis facilisis turpis. Aliquam erat
-          volutpat. Aliquam varius venenatis dolor. Duis sed cursus nibh.
-          Maecenas placerat laoreet tellus, sit amet rutrum neque fringilla
-          quis. Aliquam euismod elit quis dignissim volutpat. Sed et iaculis
-          odio, id.{" "}
+          volutpat.{" "}
         </p>
         <b>GitHub: </b>
         <a
@@ -73,7 +82,7 @@ const Portfolio = () => {
         >
           https://github.com/Guillx/buscador_peliculas
         </a>
-      </>
+      </div>
     );
     PopupboxManager.open({ content });
   };
@@ -81,16 +90,20 @@ const Portfolio = () => {
   // proyecto 3
   const openPopupboxProyecto3 = () => {
     const content = (
-      <>
-        <h2>Buscador de giffs</h2>
-        <img className="portfolio-image-popupbox" src={gifs} alt=""></img>
+      <div className="portfolio-popupbox-container">
+        <h2 className="titulo-portfolio-popupbox">Buscador de giffs</h2>
+        <iframe
+          className="video-portfolio-popupbox"
+          src="https://www.youtube.com/embed/8BqA5DQp0j4"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
         <p className="portfolio-text-popupbox">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dui
           eros, faucibus ac enim ac, venenatis facilisis turpis. Aliquam erat
-          volutpat. Aliquam varius venenatis dolor. Duis sed cursus nibh.
-          Maecenas placerat laoreet tellus, sit amet rutrum neque fringilla
-          quis. Aliquam euismod elit quis dignissim volutpat. Sed et iaculis
-          odio, id.{" "}
+          volutpat.{" "}
         </p>
         <b>GitHub: </b>
         <a
@@ -100,7 +113,7 @@ const Portfolio = () => {
         >
           https://github.com/Guillx/giffy
         </a>
-      </>
+      </div>
     );
     PopupboxManager.open({ content });
   };
@@ -108,16 +121,20 @@ const Portfolio = () => {
   // proyecto 4
   const openPopupboxProyecto4 = () => {
     const content = (
-      <>
-        <h2>Otro proyecto</h2>
-        <img className="portfolio-image-popupbox" src={nopicimg} alt=""></img>
+      <div className="portfolio-popupbox-container">
+        <h2 className="titulo-portfolio-popupbox">Otro proyecto</h2>
+        <iframe
+          className="video-portfolio-popupbox"
+          src="https://www.youtube.com/embed/8BqA5DQp0j4"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
         <p className="portfolio-text-popupbox">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dui
           eros, faucibus ac enim ac, venenatis facilisis turpis. Aliquam erat
-          volutpat. Aliquam varius venenatis dolor. Duis sed cursus nibh.
-          Maecenas placerat laoreet tellus, sit amet rutrum neque fringilla
-          quis. Aliquam euismod elit quis dignissim volutpat. Sed et iaculis
-          odio, id.{" "}
+          volutpat.{" "}
         </p>
         <b>GitHub: </b>
         <a
@@ -127,7 +144,7 @@ const Portfolio = () => {
         >
           https://github.com/Guillx/giffy
         </a>
-      </>
+      </div>
     );
     PopupboxManager.open({ content });
   };

@@ -17,11 +17,12 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-fontawesome": "^1.7.1",
-    "react-hook-form": "^7.4.0",
+    "react-hook-form": "^7.6.0",
     "react-popupbox": "^2.0.8",
     "react-scripts": "4.0.3",
     "react-scroll": "^1.8.2",
     "react-typed": "^1.2.0",
+    "sweetalert": "^2.1.2",
     "swiper": "^6.5.8",
     "web-vitals": "^1.1.1"
   },

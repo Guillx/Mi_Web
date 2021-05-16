@@ -8,7 +8,7 @@ import Navbar from "./components/Navbar";
 import Presentacion from "./components/Presentacion";
 import Portfolio from "./components/Portfolio";
 import Contacto from "./components/Contacto";
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
       <Experiencia></Experiencia>
       <Portfolio></Portfolio>
       <Contacto></Contacto>
-      <Footer></Footer>
+      {/* <Footer></Footer> */}
     </div>
   );
 }
