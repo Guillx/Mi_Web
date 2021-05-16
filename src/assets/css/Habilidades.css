@@ -25,10 +25,10 @@
 }
 
 .habilidades-texto {
-  font-size: 24px;
+  font-size: 22px;
   font-family: "Poppins", sans-serif;
   margin: 20px auto;
-  line-height: 43px;
+  line-height: 40px;
   justify-content: left;
   width: 60%;
   text-align: justify;
@@ -41,7 +41,7 @@
 }
 
 .entretitulo-bars {
-  font-size: 26px;
+  font-size: 24px;
   font-family: "Poppins", sans-serif;
   margin: 70px 0 0 0;
   border-bottom: 1px solid white;
@@ -52,7 +52,7 @@
   margin-bottom: 30px;
   font-family: "Ubuntu", sans-serif;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 19px;
   border-bottom: 1px solid white;
   padding-bottom: 17px;
   border-radius: 25px;

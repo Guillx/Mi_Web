@@ -1,4 +1,5 @@
 import "../assets/css/Presentacion.css";
+// import arrow from "../assets/images/arrow1.svg";
 
 // POPUPBOX
 import { PopupboxManager, PopupboxContainer } from "react-popupbox";
@@ -8,25 +9,51 @@ const Presentacion = () => {
   //
   const openPopupboxMasInfo = () => {
     const content = (
-      <>
-        <h2>Más sobre mí</h2>
-        <p className="portfolio-text-popupbox">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dui
-          eros, faucibus ac enim ac, venenatis facilisis turpis. Aliquam erat
-          volutpat. Aliquam varius venenatis dolor. Duis sed cursus nibh.
-          Maecenas placerat laoreet tellus, sit amet rutrum neque fringilla
-          quis. Aliquam euismod elit quis dignissim volutpat. Sed et iaculis
-          odio, id.{" "}
-        </p>
-        <b>GitHub: </b>
-        <a
-          href="https://github.com/Guillx"
-          className="hyper-link-popupbox"
-          onClick={() => window.open("https://github.com/Guillx")}
-        >
-          https://github.com/Guillx
-        </a>
-      </>
+      <div className="presentacion-popupbox-container">
+        <div className="presentacion-title-popupbox">
+          {/* <img src={arrow} alt=""></img> */}
+          <h2>Más sobre mí</h2>
+        </div>
+        <div className="presentacion-text-popupbox">
+          <ul>
+            <li>
+              Me considero una persona con muchas curiosidades e inquietudes.
+            </li>
+            <li>
+              No me gusta quedarme con la duda, por lo que suelo arriesgarme a
+              hacer todo aquello que me propongo.
+            </li>
+            <li>
+              He vivido en Suiza casi 3 años de mi vida y he visitado 11 países.
+            </li>
+            <li>
+              Además de viajar, me gusta todo lo relacionado con el arte y el
+              diseño.
+            </li>
+            <li>
+              Soy bastante "maniático" con los detalles y me gustan las cosas
+              bien organizadas y con un acabado perfecto.
+            </li>
+            <li>
+              Tengo una personalidad calmada y fácil de llevar y de integrar en
+              cualquier grupo de trabajo.
+            </li>
+            <li>
+              Me gustaría conseguir un puesto de trabajo relacionado con el
+              diseño y el desarrollo web, ya que es lo que más me ha gustado de
+              lo que he aprendido hasta ahora y creo que a corto plazo puedo
+              aportar bastante a cualquier empresa del sector.
+            </li>
+            <li>
+              Tengo carnet de conducir y coche propio, por lo que estoy
+              disponible tanto para trabajo en remoto como en oficina.
+            </li>
+            <li>
+              Disponibilidad horaria y posibilidad de movilidad geográfica.
+            </li>
+          </ul>
+        </div>
+      </div>
     );
     PopupboxManager.open({ content });
   };
@@ -44,17 +71,16 @@ const Presentacion = () => {
         "nueva normalidad" iba para largo, en septiembre de 2020 me puse a
         estudiar un Bootcamp de programación web, sin saber muy bien dónde me
         metía, ya que no tenía ni idea de como se hacía una página web. Tras
-        unos meses de aprendizaje, he descubierto un mundo nuevo, que me gusta y
-        en el que quiero quedarme. <br></br>
-        <br></br> De momento aún estoy muy verde, pero con tan solo 4 meses he
-        conseguido sacar adelante un proyecto que considero bastante grande e
-        importante para ser el primero.
-        <br></br>
-        Te presento mi proyecto de fin de Bootcamp: una aplicación web de compra
-        y venta de tecnología retro.
+        unos meses, he descubierto un mundo nuevo, que me gusta y en el que
+        quiero quedarme. <br></br>
+        <br></br> De momento aún estoy muy verde, pero con tan solo 4 meses de
+        aprendizaje he conseguido sacar adelante un proyecto que considero
+        bastante grande e importante para ser el primero.
+        <br></br>A continuación te presento mi proyecto de fin de Bootcamp: una
+        aplicación web de compra y venta de tecnología retro.
         <br></br>
         Este proyecto fue realizado en poco más de 2 meses y partiendo de cero.
-        Entre yo y un compañero de clase hemos creado la base de datos, el
+        Entre un compañero de clase y yo hemos creado la base de datos, el
         backend y el frontend. En el vídeo que aparece a continuación podrás ver
         "RetroTech" en funcionamiento y, además, podrás conocerme un poco mejor.
         <br></br>

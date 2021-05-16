@@ -161,7 +161,7 @@ const Portfolio = () => {
           <br></br> Como verás, la mayoría de las prácticas que he realizado son
           de frontend. Creo que a corto-medio plazo, dónde más puedo aportar y
           dónde más cómodo me sentiré es en frontend y diseño, pero también me
-          me encantaría aprender backend.
+          encantaría seguir formándome y aprendiendo backend.
         </p>
       </div>
       <div className="portfolio-cards-container">

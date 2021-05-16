@@ -2,7 +2,7 @@
   width: 100%;
 
   position: relative;
-  margin-bottom: 100px;
+  margin-bottom: 0px;
 }
 
 .presentacion-titulo {
@@ -21,12 +21,12 @@
 }
 
 .presentacion-texto {
-  font-size: 24px;
+  font-size: 22px;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   margin: 50px auto;
   text-align: justify;
-  line-height: 43px;
+  line-height: 40px;
   justify-content: left;
   width: 60%;
 }
@@ -47,11 +47,64 @@
 .link-presentacion-texto {
   text-decoration: none;
   color: var(--primarygreen);
+  cursor: pointer;
 }
 .link-presentacion-texto:hover {
   font-style: italic;
   text-decoration: none;
   color: var(--primarygreen);
+}
+
+.presentacion-popupbox-container {
+  max-height: 90vh;
+  overflow: scroll;
+}
+
+.presentacion-title-popupbox {
+  width: 89%;
+  margin: auto;
+
+  padding-bottom: 5px;
+
+  border-bottom: 2px solid rgba(0, 0, 0, 0.692);
+}
+/* .presentacion-popupbox-container img {
+  height: 43px;
+  position: absolute;
+  margin: -2px auto;
+} */
+
+.presentacion-popupbox-container h2 {
+  width: 93%;
+  font-size: 33px;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.presentacion-text-popupbox {
+  width: 95%;
+  margin: 20px auto;
+  padding: 0 20px;
+  font-size: 19px;
+  line-height: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  text-align: left;
+  overflow: scroll;
+}
+
+.presentacion-text-popupbox ul {
+  list-style: none;
+  padding-left: 2rem;
+}
+
+.presentacion-text-popupbox ul li {
+  padding-left: 3rem;
+  background-image: url(../images/arrow1.svg);
+  background-position: 0 0;
+  background-size: 1.6rem 1.6rem;
+  background-repeat: no-repeat;
+  margin: 30px 0;
 }
 
 /********** QUERIES *********/
@@ -125,6 +178,16 @@
   .presentacion-titulo {
     margin: 120px auto -20px auto;
   }
+
+  .presentacion-text-popupbox {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .presentacion-text-popupbox ul {
+    list-style: none;
+    padding-left: 0rem;
+  }
 }
 
 @media only screen and (max-width: 840px) {
@@ -138,6 +201,15 @@
     font-size: 20px;
     line-height: 38px;
     width: 70%;
+  }
+
+  .presentacion-video-container {
+    width: 90%;
+  }
+
+  .presentacion-video {
+    width: 100%;
+    height: 400px;
   }
 }
 
@@ -154,15 +226,24 @@
     width: 75%;
   }
 
-  .presentacion-video-container {
-    width: 80%;
-
-    padding: 0px;
-  }
-
   .presentacion-video {
     width: 100%;
-    height: 300px;
+    height: 350px;
+  }
+
+  .presentacion-text-popupbox {
+    width: 100%;
+    margin: 30px auto;
+    padding: 0 15px;
+    font-size: 17px;
+  }
+
+  .presentacion-text-popupbox ul li {
+    padding-left: 2.2rem;
+
+    background-size: 1.4rem 1.6rem;
+    background-repeat: no-repeat;
+    margin: 30px 0;
   }
 }
 

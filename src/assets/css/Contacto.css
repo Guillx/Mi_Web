@@ -21,14 +21,14 @@
 }
 
 .contacto-texto {
-  font-size: 24px;
+  font-size: 22px;
   font-family: "Poppins", sans-serif;
   margin: 30px auto 0px auto;
-  line-height: 43px;
+  line-height: 40px;
   justify-content: left;
   width: 60%;
   text-align: justify;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .col-md-10 {
