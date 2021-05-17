@@ -73,7 +73,7 @@ const Habilidades = () => {
         <div className="habilidades-bars">
           <div className="bars-info">
             <span className="bars-info-titulo">Español</span>
-            <span className="bars-info-percent">95%</span>
+            <span className="bars-info-percent">100%</span>
           </div>
           <div className="line español"></div>
         </div>
@@ -81,7 +81,7 @@ const Habilidades = () => {
         <div className="habilidades-bars">
           <div className="bars-info">
             <span className="bars-info-titulo">Gallego</span>
-            <span className="bars-info-percent">95%</span>
+            <span className="bars-info-percent">100%</span>
           </div>
           <div className="line gallego"></div>
         </div>
