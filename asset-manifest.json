@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/guillx_web/static/css/main.6a245b4c.chunk.css",
+    "main.css": "/guillx_web/static/css/main.ea9c0c2e.chunk.css",
     "main.js": "/guillx_web/static/js/main.3026ffa2.chunk.js",
     "main.js.map": "/guillx_web/static/js/main.3026ffa2.chunk.js.map",
     "runtime-main.js": "/guillx_web/static/js/runtime-main.8a1b93d2.js",
@@ -12,7 +12,7 @@
     "static/js/3.d62f275d.chunk.js.map": "/guillx_web/static/js/3.d62f275d.chunk.js.map",
     "index.html": "/guillx_web/index.html",
     "static/css/2.301e199a.chunk.css.map": "/guillx_web/static/css/2.301e199a.chunk.css.map",
-    "static/css/main.6a245b4c.chunk.css.map": "/guillx_web/static/css/main.6a245b4c.chunk.css.map",
+    "static/css/main.ea9c0c2e.chunk.css.map": "/guillx_web/static/css/main.ea9c0c2e.chunk.css.map",
     "static/js/2.bdc3dc2a.chunk.js.LICENSE.txt": "/guillx_web/static/js/2.bdc3dc2a.chunk.js.LICENSE.txt",
     "static/media/Presentacion.css": "/guillx_web/static/media/arrow1.7ea8dfc4.svg",
     "static/media/gifs.75494111.png": "/guillx_web/static/media/gifs.75494111.png",
@@ -27,7 +27,7 @@
     "static/js/runtime-main.8a1b93d2.js",
     "static/css/2.301e199a.chunk.css",
     "static/js/2.bdc3dc2a.chunk.js",
-    "static/css/main.6a245b4c.chunk.css",
+    "static/css/main.ea9c0c2e.chunk.css",
     "static/js/main.3026ffa2.chunk.js"
   ]
 }
