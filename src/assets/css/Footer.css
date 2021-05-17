@@ -48,3 +48,83 @@
   padding: 20px 0;
   color: rgb(85, 84, 84);
 }
+
+/********** QUERIES *********/
+
+@media only screen and (max-width: 1200px) {
+  .links-social-footer {
+    margin: 0 20px;
+    padding: 0 10px;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .contacto-titulo {
+    font-size: 45px;
+  }
+
+  .contacto-texto {
+    font-size: 21px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .links-social-footer {
+    padding: 0;
+    width: 10%;
+  }
+  .footer-nav {
+    margin-left: -30px;
+  }
+
+  .links-social-footer {
+    margin: 0 50px;
+  }
+
+  .copyright-text-footer {
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 773px) {
+  .links-social-footer {
+    padding: 0;
+    width: 10%;
+  }
+  .footer-nav {
+    margin-left: -30px;
+  }
+
+  .links-social-footer {
+    margin: 50px 170px 0 170px;
+  }
+
+  .copyright-text-footer {
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 577px) {
+  .footer-container .links-social-footer {
+    padding: 0;
+    width: 10%;
+  }
+
+  .footer-nav-container {
+    margin: 40px 0px;
+
+    padding: 0px;
+  }
+
+  .footer-nav {
+    display: none;
+  }
+
+  .links-social-footer {
+    margin: -90px 0px 0 0px;
+  }
+
+  .copyright-text-footer {
+    margin: 0;
+  }
+}

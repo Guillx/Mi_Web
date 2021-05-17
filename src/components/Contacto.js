@@ -75,19 +75,17 @@ const Contacto = () => {
                 type="text"
               ></input>
 
-              <div className="col-md-14 col-xs-12">
-                <textarea
-                  id="mensaje"
-                  className="form-control"
-                  placeholder="Escribe un mensaje"
-                  name="mensaje"
-                  type="text"
-                ></textarea>
+              <textarea
+                id="mensaje"
+                className="form-control"
+                placeholder="Escribe un mensaje"
+                name="mensaje"
+                type="text"
+              ></textarea>
 
-                <button className="btn-main-offer contact-btn" type="submit">
-                  Enviar
-                </button>
-              </div>
+              <button className="btn-main-offer contact-btn" type="submit">
+                Enviar
+              </button>
             </div>
           </div>
         </form>

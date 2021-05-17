@@ -4,6 +4,7 @@ import netflix from "../assets/images/pixabay.jpeg";
 import picmovies from "../assets/images/pic-movies.png";
 import gifs from "../assets/images/gifs.png";
 import nopicimg from "../assets/images/nopic.jpg";
+import leicadesign from "../assets/images/leicadesign.png";
 
 // FONT AWESOME
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -18,28 +19,31 @@ const Portfolio = () => {
   const openPopupboxProyecto1 = () => {
     const content = (
       <div className="portfolio-popupbox-container">
-        <h2 className="titulo-portfolio-popupbox">Proyecto 1</h2>
+        <h2 className="titulo-portfolio-popupbox">Buscador de películas</h2>
         <iframe
           className="video-portfolio-popupbox"
-          src="https://www.youtube.com/embed/8BqA5DQp0j4"
+          src="https://www.youtube.com/embed/gfF5yoxOCVg"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
         ></iframe>
         <p className="portfolio-text-popupbox">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dui
-          eros, faucibus ac enim ac, venenatis facilisis turpis. Aliquam erat
-          volutpat.{" "}
+          Este es uno de los primeros trabajos que realicé para aprender a
+          utilizar React. <br></br>Es un simple buscador de películas creado con
+          la API de IMDb. Al escribir el nombre de una película en el búscador y
+          pulsar 'Enter', lista las películas que coinciden con ese nombre.
         </p>
 
         <b>GitHub: </b>
         <a
-          href="https://github.com/Guillx"
+          href="https://github.com/Guillx/buscador_peliculas"
           className="hyper-link-popupbox"
-          onClick={() => window.open("https://github.com/Guillx")}
+          onClick={() =>
+            window.open("https://github.com/Guillx/buscador_peliculas")
+          }
         >
-          https://github.com/Guillx
+          https://github.com/Guillx/buscador_peliculas
         </a>
       </div>
     );
@@ -58,29 +62,29 @@ const Portfolio = () => {
   const openPopupboxProyecto2 = () => {
     const content = (
       <div className="portfolio-popupbox-container">
-        <h2 className="titulo-portfolio-popupbox">Buscador de películas</h2>
+        <h2 className="titulo-portfolio-popupbox">Buscador de giffs</h2>
         <iframe
           className="video-portfolio-popupbox"
-          src="https://www.youtube.com/embed/8BqA5DQp0j4"
+          src="https://www.youtube.com/embed/Sb8-e6Dzfcw"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
         ></iframe>
         <p className="portfolio-text-popupbox">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dui
-          eros, faucibus ac enim ac, venenatis facilisis turpis. Aliquam erat
-          volutpat.{" "}
+          Este es otro proyecto que hice para aprender React. <br></br>
+          Se trata de una web de giffs creada utilizando la API de Giphy.
+          <br></br> Los giffs están ordeados por categorías. Al clicar en una de
+          ellas, nos muestra una lista de giffs relacionados con la categoría
+          seleccionada.
         </p>
         <b>GitHub: </b>
         <a
-          href="https://github.com/Guillx/buscador_peliculas"
+          href="https://github.com/Guillx/giffy"
           className="hyper-link-popupbox"
-          onClick={() =>
-            window.open("https://github.com/Guillx/buscador_peliculas")
-          }
+          onClick={() => window.open("https://github.com/Guillx/giffy")}
         >
-          https://github.com/Guillx/buscador_peliculas
+          https://github.com/Guillx/giffy
         </a>
       </div>
     );
@@ -91,27 +95,28 @@ const Portfolio = () => {
   const openPopupboxProyecto3 = () => {
     const content = (
       <div className="portfolio-popupbox-container">
-        <h2 className="titulo-portfolio-popupbox">Buscador de giffs</h2>
+        <h2 className="titulo-portfolio-popupbox">Diseño Web Leica M6</h2>
         <iframe
           className="video-portfolio-popupbox"
-          src="https://www.youtube.com/embed/8BqA5DQp0j4"
+          src="https://www.youtube.com/embed/Hg9IQTJ8yeA"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
         ></iframe>
         <p className="portfolio-text-popupbox">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dui
-          eros, faucibus ac enim ac, venenatis facilisis turpis. Aliquam erat
-          volutpat.{" "}
+          Este proyecto ha sido creado para practicar CSS, Grid y HTML.<br></br>{" "}
+          Es una web de presentación de una cámara de fotos.
         </p>
         <b>GitHub: </b>
         <a
-          href="https://github.com/Guillx/giffy"
+          href="https://github.com/Guillx/leica-camera-design"
           className="hyper-link-popupbox"
-          onClick={() => window.open("https://github.com/Guillx/giffy")}
+          onClick={() =>
+            window.open("https://github.com/Guillx/leica-camera-design")
+          }
         >
-          https://github.com/Guillx/giffy
+          https://github.com/Guillx/leica-camera-design
         </a>
       </div>
     );
@@ -119,35 +124,35 @@ const Portfolio = () => {
   };
 
   // proyecto 4
-  const openPopupboxProyecto4 = () => {
-    const content = (
-      <div className="portfolio-popupbox-container">
-        <h2 className="titulo-portfolio-popupbox">Otro proyecto</h2>
-        <iframe
-          className="video-portfolio-popupbox"
-          src="https://www.youtube.com/embed/8BqA5DQp0j4"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-        <p className="portfolio-text-popupbox">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dui
-          eros, faucibus ac enim ac, venenatis facilisis turpis. Aliquam erat
-          volutpat.{" "}
-        </p>
-        <b>GitHub: </b>
-        <a
-          href="https://github.com/Guillx/giffy"
-          className="hyper-link-popupbox"
-          onClick={() => window.open("https://github.com/Guillx/giffy")}
-        >
-          https://github.com/Guillx/giffy
-        </a>
-      </div>
-    );
-    PopupboxManager.open({ content });
-  };
+  // const openPopupboxProyecto4 = () => {
+  //   const content = (
+  //     <div className="portfolio-popupbox-container">
+  //       <h2 className="titulo-portfolio-popupbox">Otro proyecto</h2>
+  //       <iframe
+  //         className="video-portfolio-popupbox"
+  //         src="https://www.youtube.com/embed/8BqA5DQp0j4"
+  //         title="YouTube video player"
+  //         frameborder="0"
+  //         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  //         allowfullscreen
+  //       ></iframe>
+  //       <p className="portfolio-text-popupbox">
+  //         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dui
+  //         eros, faucibus ac enim ac, venenatis facilisis turpis. Aliquam erat
+  //         volutpat.{" "}
+  //       </p>
+  //       <b>GitHub: </b>
+  //       <a
+  //         href="https://github.com/Guillx/giffy"
+  //         className="hyper-link-popupbox"
+  //         onClick={() => window.open("https://github.com/Guillx/giffy")}
+  //       >
+  //         https://github.com/Guillx/giffy
+  //       </a>
+  //     </div>
+  //   );
+  //   PopupboxManager.open({ content });
+  // };
 
   return (
     <div id="portfolio" className="portfolio-wrapper">
@@ -155,27 +160,14 @@ const Portfolio = () => {
         <h1 className="portfolio-titulo">Portfolio</h1>
         <p className="portfolio-texto">
           En esta sección te presento alguno de los trabajos que he realizado
-          para aprender y practicar programación y diseño web. Al hacer clic en
-          cada uno de ellos, podrás ver un vídeo, el link a GitHub y una
+          para aprender y practicar programación y diseño web. <br></br>Al hacer
+          clic en cada uno de ellos, podrás ver un vídeo, el link a GitHub y una
           descripción más detallada del proyecto.<br></br>
-          <br></br> Como verás, la mayoría de las prácticas que he realizado son
-          de frontend. Creo que a corto-medio plazo, dónde más puedo aportar y
-          dónde más cómodo me sentiré es en frontend y diseño, pero también me
-          encantaría seguir formándome y aprendiendo backend.
         </p>
       </div>
       <div className="portfolio-cards-container">
         <div className="image-box-wrapper row justify-content-center">
           <div className="portfolio-image-box" onClick={openPopupboxProyecto1}>
-            <img className="portfolio-image" src={netflix} alt=""></img>
-            <div className="overflow"></div>
-            <FontAwesomeIcon
-              className="portfolio-icon"
-              icon={faSearchPlus}
-            ></FontAwesomeIcon>
-          </div>
-
-          <div className="portfolio-image-box" onClick={openPopupboxProyecto2}>
             <img className="portfolio-image" src={picmovies} alt=""></img>
             <div className="overflow"></div>
             <FontAwesomeIcon
@@ -184,7 +176,7 @@ const Portfolio = () => {
             ></FontAwesomeIcon>
           </div>
 
-          <div className="portfolio-image-box" onClick={openPopupboxProyecto3}>
+          <div className="portfolio-image-box" onClick={openPopupboxProyecto2}>
             <img className="portfolio-image" src={gifs} alt=""></img>
             <div className="overflow"></div>
             <FontAwesomeIcon
@@ -193,14 +185,23 @@ const Portfolio = () => {
             ></FontAwesomeIcon>
           </div>
 
-          <div className="portfolio-image-box" onClick={openPopupboxProyecto4}>
-            <img className="portfolio-image" src={nopicimg} alt=""></img>
+          <div className="portfolio-image-box" onClick={openPopupboxProyecto3}>
+            <img className="portfolio-image" src={leicadesign} alt=""></img>
             <div className="overflow"></div>
             <FontAwesomeIcon
               className="portfolio-icon"
               icon={faSearchPlus}
             ></FontAwesomeIcon>
           </div>
+
+          {/* <div className="portfolio-image-box" onClick={openPopupboxProyecto4}>
+            <img className="portfolio-image" src={nopicimg} alt=""></img>
+            <div className="overflow"></div>
+            <FontAwesomeIcon
+              className="portfolio-icon"
+              icon={faSearchPlus}
+            ></FontAwesomeIcon>
+          </div> */}
         </div>
       </div>
       {/* <PopupboxContainer {...popupboxConfigProyecto1}></PopupboxContainer>

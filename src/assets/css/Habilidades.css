@@ -108,6 +108,9 @@
   width: 40%;
 }
 
+.figma::before {
+  width: 40%;
+}
 .atencioncliente::before {
   width: 90%;
 }

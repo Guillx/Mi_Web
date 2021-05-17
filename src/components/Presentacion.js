@@ -16,9 +16,7 @@ const Presentacion = () => {
         </div>
         <div className="presentacion-text-popupbox">
           <ul>
-            <li>
-              Me considero una persona con muchas curiosidades e inquietudes.
-            </li>
+            <li>Me considero una persona curiosa y con muchas inquietudes.</li>
             <li>
               No me gusta quedarme con la duda, por lo que suelo arriesgarme a
               hacer todo aquello que me propongo.
@@ -40,13 +38,15 @@ const Presentacion = () => {
             </li>
             <li>
               Me gustaría conseguir un puesto de trabajo relacionado con el
-              diseño y el desarrollo web, ya que es lo que más me ha gustado de
-              lo que he aprendido hasta ahora y creo que a corto plazo puedo
-              aportar bastante a cualquier empresa del sector.
+              diseño y el desarrollo web Front End, ya que es lo que más me ha
+              gustado de lo que he aprendido hasta ahora y creo que a corto
+              plazo puedo aportar bastante a cualquier empresa del sector, pero
+              también estoy interesado en cualquier oferta relacionada con Back
+              End.
             </li>
             <li>
               Tengo carnet de conducir y coche propio, por lo que estoy
-              disponible tanto para trabajo en remoto como en oficina.
+              disponible tanto para trabajo en remoto como de forma presencial.
             </li>
             <li>
               Disponibilidad horaria y posibilidad de movilidad geográfica.

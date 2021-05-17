@@ -19,9 +19,9 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="col-lg-4 col-md-2 col-sm-6">
+          <div className="col-lg-4 col-md-2 col-sm-6 ">
             <div className="row">
-              <div className="col">
+              <div className="col footer-nav-container">
                 <a href="/" className="footer-nav">
                   Inicio
                 </a>
@@ -35,7 +35,7 @@ const Footer = () => {
                 </a>
               </div>
 
-              <div className="col">
+              <div className="col footer-nav-container">
                 <a href="/" className="footer-nav">
                   Experiencia
                 </a>
@@ -64,8 +64,8 @@ const Footer = () => {
           </div>
         </div>
         <p className="copyright-text-footer">
-          Copyright &copy; {new Date().getFullYear()}&nbsp;Guillx | All Rights
-          Reserved
+          Copyright &copy; {new Date().getFullYear()}&nbsp;Guillx | Ningún
+          Derecho Reservado
         </p>
       </div>
     </div>

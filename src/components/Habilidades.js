@@ -60,6 +60,14 @@ const Habilidades = () => {
           <div className="line react"></div>
         </div>
 
+        <div className="habilidades-bars">
+          <div className="bars-info">
+            <span className="bars-info-titulo">Figma</span>
+            <span className="bars-info-percent">40%</span>
+          </div>
+          <div className="line figma"></div>
+        </div>
+
         <h3 className="entretitulo-bars">Idiomas</h3>
 
         <div className="habilidades-bars">
