@@ -231,6 +231,12 @@
     height: 350px;
   }
 
+  .presentacion-popupbox-container {
+    max-height: 70vh;
+
+    overflow: scroll;
+  }
+
   .presentacion-text-popupbox {
     width: 100%;
     margin: 30px auto;
