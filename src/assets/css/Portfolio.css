@@ -29,7 +29,10 @@
   font-weight: 200;
   color: white;
 }
-
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
 .portfolio-image {
   width: 19rem;
   height: 12rem;

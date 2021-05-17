@@ -269,6 +269,10 @@
     width: 80%;
     margin-left: 42px;
   }
+
+  .swal button {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 400px) {
