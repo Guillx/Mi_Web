@@ -3,8 +3,9 @@ import "../assets/css/Portfolio.css";
 import netflix from "../assets/images/pixabay.jpeg";
 import picmovies from "../assets/images/pic-movies.png";
 import gifs from "../assets/images/gifs.png";
-import nopicimg from "../assets/images/nopic.jpg";
+// import nopicimg from "../assets/images/nopic.jpg";
 import leicadesign from "../assets/images/leicadesign.png";
+import fakebook from "../assets/images/fakebook-app.png";
 
 // FONT AWESOME
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -124,35 +125,44 @@ const Portfolio = () => {
   };
 
   // proyecto 4
-  // const openPopupboxProyecto4 = () => {
-  //   const content = (
-  //     <div className="portfolio-popupbox-container">
-  //       <h2 className="titulo-portfolio-popupbox">Otro proyecto</h2>
-  //       <iframe
-  //         className="video-portfolio-popupbox"
-  //         src="https://www.youtube.com/embed/8BqA5DQp0j4"
-  //         title="YouTube video player"
-  //         frameborder="0"
-  //         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  //         allowfullscreen
-  //       ></iframe>
-  //       <p className="portfolio-text-popupbox">
-  //         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dui
-  //         eros, faucibus ac enim ac, venenatis facilisis turpis. Aliquam erat
-  //         volutpat.{" "}
-  //       </p>
-  //       <b>GitHub: </b>
-  //       <a
-  //         href="https://github.com/Guillx/giffy"
-  //         className="hyper-link-popupbox"
-  //         onClick={() => window.open("https://github.com/Guillx/giffy")}
-  //       >
-  //         https://github.com/Guillx/giffy
-  //       </a>
-  //     </div>
-  //   );
-  //   PopupboxManager.open({ content });
-  // };
+  const openPopupboxProyecto4 = () => {
+    const content = (
+      <div className="portfolio-popupbox-container">
+        <h2 className="titulo-portfolio-popupbox">Fakebook - Facebook Clone</h2>
+        <iframe
+          className="video-portfolio-popupbox"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/p3CqWCvRT1Q"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <p className="portfolio-text-popupbox">
+          Diseño de la red social Facebook para practicar y aprender CSS y
+          React. Le añadí alguna funcionalidad con Hooks, como poder dar clic en
+          'Me gusta'. Los usuarios y publicaciones se muestran a través de una
+          pequeña API que hice para este proyecto. <br></br>
+          <br></br>
+          <b>NOTA:</b> Este proyecto aún no está terminado, ya que me gustaría
+          añadirle un backend en condiciones, hacerlo 100% funcional y crear un
+          chat en tiempo real para simular la aplicación Messenger de Facebook.
+        </p>
+        <b>GitHub: </b>
+        <a
+          href="https://github.com/Guillx/social-feisbuk"
+          className="hyper-link-popupbox"
+          onClick={() =>
+            window.open("https://github.com/Guillx/social-feisbuk")
+          }
+        >
+          https://github.com/Guillx/social-feisbuk
+        </a>
+      </div>
+    );
+    PopupboxManager.open({ content });
+  };
 
   return (
     <div id="portfolio" className="portfolio-wrapper">
@@ -187,6 +197,15 @@ const Portfolio = () => {
 
           <div className="portfolio-image-box" onClick={openPopupboxProyecto3}>
             <img className="portfolio-image" src={leicadesign} alt=""></img>
+            <div className="overflow"></div>
+            <FontAwesomeIcon
+              className="portfolio-icon"
+              icon={faSearchPlus}
+            ></FontAwesomeIcon>
+          </div>
+
+          <div className="portfolio-image-box" onClick={openPopupboxProyecto4}>
+            <img className="portfolio-image" src={fakebook} alt=""></img>
             <div className="overflow"></div>
             <FontAwesomeIcon
               className="portfolio-icon"

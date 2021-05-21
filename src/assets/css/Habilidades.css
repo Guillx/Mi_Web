@@ -25,7 +25,7 @@
 }
 
 .habilidades-texto {
-  font-size: 22px;
+  font-size: 20px;
   font-family: "Poppins", sans-serif;
   margin: 20px auto;
   line-height: 40px;
@@ -160,7 +160,7 @@
   }
 
   .habilidades-texto {
-    font-size: 21px;
+    font-size: 19px;
   }
 
   .entretitulo-bars {
@@ -181,7 +181,7 @@
   }
 
   .habilidades-texto {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 38px;
     width: 75%;
   }
@@ -212,7 +212,7 @@
   }
 
   .habilidades-texto {
-    font-size: 19px;
+    font-size: 16px;
     line-height: 35px;
   }
 
@@ -239,7 +239,7 @@
   }
 
   .habilidades-texto {
-    font-size: 16px;
+    font-size: 15px;
     line-height: 30px;
     width: 80%;
   }
@@ -273,6 +273,7 @@
     font-size: 15px;
     line-height: 30px;
     width: 80%;
+    text-align: left;
   }
 
   .habilidades-bars-container {

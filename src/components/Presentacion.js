@@ -99,8 +99,8 @@ const Presentacion = () => {
         ></iframe>
       </div>
 
-      <p className="presentacion-texto">
-        Si quieres saber más cosas sobre mi, haz clic{" "}
+      <p className="presentacion-texto-under">
+        ➡️ ➡️ ➡️ ➡️ ➡️ Si quieres saber más cosas sobre mi, haz clic{" "}
         <span
           className="link-presentacion-texto"
           href="/"

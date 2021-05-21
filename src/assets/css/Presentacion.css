@@ -11,7 +11,7 @@
   font-weight: 400;
 
   width: 60%;
-  margin: 500px auto 0px auto;
+  margin: 450px auto 0px auto;
   padding-bottom: 10px;
 
   text-align: center;
@@ -21,7 +21,7 @@
 }
 
 .presentacion-texto {
-  font-size: 22px;
+  font-size: 20px;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   margin: 50px auto;
@@ -42,6 +42,17 @@
   height: 600px;
   margin-bottom: -30px;
   border-radius: 5px;
+}
+
+.presentacion-texto-under {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  margin: 50px auto;
+  text-align: justify;
+  line-height: 40px;
+  justify-content: left;
+  width: 60%;
 }
 
 .link-presentacion-texto {
@@ -118,6 +129,24 @@
   .presentacion-titulo {
     margin: 300px auto 0px auto;
   }
+
+  .presentacion-video-container {
+    width: 65%;
+
+    padding: 0px;
+  }
+
+  .presentacion-video {
+    width: 100%;
+    height: 500px;
+    margin-bottom: -30px;
+    border-radius: 5px;
+  }
+
+  .presentacion-texto-under {
+    width: 65%;
+    margin-top: 70px;
+  }
 }
 
 @media only screen and (max-width: 1470px) {
@@ -138,6 +167,9 @@
   }
 
   .presentacion-texto {
+    width: 70%;
+  }
+  .presentacion-texto-under {
     width: 70%;
   }
 
@@ -168,9 +200,10 @@
   }
 
   .presentacion-texto {
-    font-size: 21px;
-
-    width: 70%;
+    font-size: 19px;
+  }
+  .presentacion-texto-under {
+    font-size: 19px;
   }
 }
 
@@ -188,6 +221,19 @@
     list-style: none;
     padding-left: 0rem;
   }
+
+  .presentacion-video-container {
+    width: 80%;
+
+    padding: 0px;
+  }
+
+  .presentacion-video {
+    width: 100%;
+    height: 400px;
+    margin-bottom: -30px;
+    border-radius: 5px;
+  }
 }
 
 @media only screen and (max-width: 840px) {
@@ -198,9 +244,15 @@
   }
 
   .presentacion-texto {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 38px;
     width: 70%;
+  }
+  .presentacion-texto-under {
+    font-size: 18px;
+    line-height: 38px;
+    width: 70%;
+    text-align: start;
   }
 
   .presentacion-video-container {
@@ -221,7 +273,12 @@
   }
 
   .presentacion-texto {
-    font-size: 19px;
+    font-size: 16px;
+    line-height: 35px;
+    width: 75%;
+  }
+  .presentacion-texto-under {
+    font-size: 16px;
     line-height: 35px;
     width: 75%;
   }
@@ -260,7 +317,12 @@
   }
 
   .presentacion-texto {
-    font-size: 16px;
+    font-size: 15px;
+    line-height: 30px;
+    width: 80%;
+  }
+  .presentacion-texto-under {
+    font-size: 15px;
     line-height: 30px;
     width: 80%;
   }
@@ -283,6 +345,11 @@
   }
 
   .presentacion-texto {
+    font-size: 15px;
+    line-height: 25px;
+    width: 80%;
+  }
+  .presentacion-texto-under {
     font-size: 15px;
     line-height: 25px;
     width: 80%;

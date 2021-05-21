@@ -21,7 +21,7 @@
 }
 
 .contacto-texto {
-  font-size: 22px;
+  font-size: 20px;
   font-family: "Poppins", sans-serif;
   margin: 30px auto 0px auto;
   line-height: 40px;
@@ -142,7 +142,7 @@
   }
 
   .contacto-texto {
-    font-size: 21px;
+    font-size: 19px;
   }
 }
 
@@ -169,7 +169,7 @@
   }
 
   .contacto-texto {
-    font-size: 20px;
+    font-size: 18px !important;
     line-height: 38px;
   }
 
@@ -200,7 +200,7 @@
   }
 
   .contacto-texto {
-    font-size: 19px;
+    font-size: 16px !important;
     line-height: 35px;
     width: 75%;
   }
@@ -212,7 +212,7 @@
   }
 
   .contacto-texto {
-    font-size: 16px;
+    font-size: 15px !important;
     line-height: 30px;
     width: 80%;
   }
@@ -245,7 +245,7 @@
   }
 
   .contacto-texto {
-    font-size: 15px;
+    font-size: 15px !important;
     line-height: 25px;
     width: 80%;
   }

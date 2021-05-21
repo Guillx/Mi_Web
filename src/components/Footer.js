@@ -15,7 +15,7 @@ const Footer = () => {
               <a href="tel:625440474">+34 625 440 474</a>
             </div>
             <div className="d-flex">
-              <p>guillx.gv@gmail.com</p>
+              <a href="mailto:guillx.gv@gmail.com">guillx.gv@gmail.com</a>
             </div>
           </div>
 

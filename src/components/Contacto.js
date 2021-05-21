@@ -34,8 +34,8 @@ const Contacto = () => {
           Si te ha gustado mi web y quieres ponerte en contacto conmigo, por
           favor, rellena el formulario y te responderé lo antes posible.
           <br></br>
-          En el footer de la página podrás encontrar mi número de teléfono y
-          links a mis redes sociales.
+          En la parte inferior de la página podrás encontrar mi número de
+          teléfono y links a mis redes sociales.
         </p>
       </div>
 
