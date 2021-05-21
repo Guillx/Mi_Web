@@ -1,6 +1,5 @@
 import "../assets/css/Portfolio.css";
 
-import netflix from "../assets/images/pixabay.jpeg";
 import picmovies from "../assets/images/pic-movies.png";
 import gifs from "../assets/images/gifs.png";
 // import nopicimg from "../assets/images/nopic.jpg";
@@ -25,9 +24,8 @@ const Portfolio = () => {
           className="video-portfolio-popupbox"
           src="https://www.youtube.com/embed/gfF5yoxOCVg"
           title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          frameBorder="0"
+          allowFullScreen
         ></iframe>
         <p className="portfolio-text-popupbox">
           Este es uno de los primeros trabajos que realicé para aprender a
@@ -68,9 +66,8 @@ const Portfolio = () => {
           className="video-portfolio-popupbox"
           src="https://www.youtube.com/embed/Sb8-e6Dzfcw"
           title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          frameBorder="0"
+          allowFullScreen
         ></iframe>
         <p className="portfolio-text-popupbox">
           Este es otro proyecto que hice para aprender React. <br></br>
@@ -101,9 +98,8 @@ const Portfolio = () => {
           className="video-portfolio-popupbox"
           src="https://www.youtube.com/embed/Hg9IQTJ8yeA"
           title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          frameBorder="0"
+          allowFullScreen
         ></iframe>
         <p className="portfolio-text-popupbox">
           Este proyecto ha sido creado para practicar CSS, Grid y HTML.<br></br>{" "}
@@ -135,9 +131,8 @@ const Portfolio = () => {
           height="315"
           src="https://www.youtube.com/embed/p3CqWCvRT1Q"
           title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          frameBorder="0"
+          allowFullScreen
         ></iframe>
         <p className="portfolio-text-popupbox">
           Diseño de la red social Facebook para practicar y aprender CSS y

@@ -1,5 +1,5 @@
 import "../assets/css/Navbar.css";
-import logoel from "../assets/images/logoel.png";
+// import logoel from "../assets/images/logoel.png";
 import { Link } from "react-scroll";
 import { useState } from "react";
 
@@ -30,7 +30,7 @@ const Navbar = () => {
           <li className="navbar-links-li">
             <Link
               smooth={true}
-              offset={-165}
+              offset={-115}
               to="presentacion"
               href="/"
               className="navbar-link"
@@ -42,7 +42,7 @@ const Navbar = () => {
           <li className="navbar-links-li">
             <Link
               smooth={true}
-              offset={-90}
+              offset={-80}
               to="habilidades"
               href="/"
               className="navbar-link"
@@ -54,7 +54,7 @@ const Navbar = () => {
           <li className="navbar-links-li">
             <Link
               smooth={true}
-              offset={-90}
+              offset={-80}
               to="experiencia"
               href="/"
               className="navbar-link"
@@ -66,7 +66,7 @@ const Navbar = () => {
           <li className="navbar-links-li">
             <Link
               smooth={true}
-              offset={-90}
+              offset={-80}
               to="portfolio"
               href="/"
               className="navbar-link"
@@ -78,7 +78,7 @@ const Navbar = () => {
           <li className="navbar-links-li">
             <Link
               smooth={true}
-              offset={-160}
+              offset={-150}
               to="contacto"
               href="/"
               className="navbar-link"

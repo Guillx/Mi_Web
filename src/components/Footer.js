@@ -1,3 +1,4 @@
+import { Link } from "react-scroll";
 import "../assets/css/Footer.css";
 import githubicon from "../assets/images/github.svg";
 import linkedinicon from "../assets/images/linkedin.svg";
@@ -22,31 +23,67 @@ const Footer = () => {
           <div className="col-lg-4 col-md-2 col-sm-6 ">
             <div className="row">
               <div className="col footer-nav-container">
-                <a href="/" className="footer-nav">
+                <Link
+                  smooth={true}
+                  offset={0}
+                  to="inicio"
+                  href="/"
+                  className="footer-nav"
+                >
                   Inicio
-                </a>
+                </Link>
                 <br></br>
-                <a href="/" className="footer-nav">
+                <Link
+                  smooth={true}
+                  offset={-115}
+                  to="presentacion"
+                  href="/"
+                  className="footer-nav"
+                >
                   Presentación
-                </a>
+                </Link>
                 <br></br>
-                <a href="/" className="footer-nav">
+                <Link
+                  smooth={true}
+                  offset={-80}
+                  to="habilidades"
+                  href="/"
+                  className="footer-nav"
+                >
                   Habilidades
-                </a>
+                </Link>
               </div>
 
               <div className="col footer-nav-container">
-                <a href="/" className="footer-nav">
+                <Link
+                  smooth={true}
+                  offset={-80}
+                  to="experiencia"
+                  href="/"
+                  className="footer-nav"
+                >
                   Experiencia
-                </a>
+                </Link>
                 <br></br>
-                <a href="/" className="footer-nav">
+                <Link
+                  smooth={true}
+                  offset={-80}
+                  to="portfolio"
+                  href="/"
+                  className="footer-nav"
+                >
                   Portfolio
-                </a>
+                </Link>
                 <br></br>
-                <a href="/" className="footer-nav">
+                <Link
+                  smooth={true}
+                  offset={-150}
+                  to="contacto"
+                  href="/"
+                  className="footer-nav"
+                >
                   Contacto
-                </a>
+                </Link>
               </div>
             </div>
           </div>

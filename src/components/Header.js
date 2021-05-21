@@ -33,7 +33,7 @@ const Header = () => {
         <div className="header-btn">
           <Link
             smooth={true}
-            offset={-160}
+            offset={-150}
             to="contacto"
             href="/"
             className="btn-main-header"
