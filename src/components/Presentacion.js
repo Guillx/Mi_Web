@@ -1,5 +1,4 @@
 import "../assets/css/Presentacion.css";
-// import arrow from "../assets/images/arrow1.svg";
 
 // POPUPBOX
 import { PopupboxManager, PopupboxContainer } from "react-popupbox";
@@ -89,8 +88,6 @@ const Presentacion = () => {
       <div className="presentacion-video-container">
         <iframe
           className="presentacion-video"
-          width="560"
-          height="315"
           src="https://www.youtube.com/embed/Ls7TDF9yi44"
           title="YouTube video player"
           frameBorder="0"

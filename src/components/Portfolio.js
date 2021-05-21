@@ -2,7 +2,6 @@ import "../assets/css/Portfolio.css";
 
 import picmovies from "../assets/images/pic-movies.png";
 import gifs from "../assets/images/gifs.png";
-// import nopicimg from "../assets/images/nopic.jpg";
 import leicadesign from "../assets/images/leicadesign.png";
 import fakebook from "../assets/images/fakebook-app.png";
 
@@ -48,14 +47,6 @@ const Portfolio = () => {
     );
     PopupboxManager.open({ content });
   };
-  // const popupboxConfigProyecto1 = {
-  //   titleBar: {
-  //     enable: true,
-  //     text: "Título del proyecto 1",
-  //   },
-  //   fade: true,
-  //   fadeInSpeed: 500,
-  // };
 
   // proyecto 2
   const openPopupboxProyecto2 = () => {
