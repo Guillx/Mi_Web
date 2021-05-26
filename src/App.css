@@ -27,4 +27,6 @@
 
 :root {
   --primarygreen: rgb(67, 169, 57);
+  --contrastgreen: rgb(56, 150, 47);
+  --primaryblack: rgba(0, 0, 0, 0.96);
 }

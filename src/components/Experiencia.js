@@ -12,7 +12,7 @@ const Experiencia = () => {
           <div className="timeline-content">
             <h3>Mayo 2015-Sept 2015</h3>
             <span>
-              <b>Restaurante A Lareira</b>
+              <b>'Restaurante A Lareira'</b>
             </span>
             <p className="cargo">Camarero de sala en eventos </p>
             <p className="descripcion-puesto">
@@ -27,7 +27,7 @@ const Experiencia = () => {
           <div className="timeline-content">
             <h3>Nov 2015-Enero 2016</h3>
             <span>
-              <b>Wienachtsdorf</b>
+              <b>'Wienachtsdorf'</b>
             </span>
             <p className="cargo">Ayudante de cocina y bar</p>
             <p className="descripcion-puesto">
@@ -42,7 +42,7 @@ const Experiencia = () => {
           <div className="timeline-content">
             <h3>Marzo 2016-Julio 2018</h3>
             <span>
-              <b>Crazy Burrito Shack</b>
+              <b>'Crazy Burrito Shack'</b>
             </span>
             <p className="cargo">Cocinero y atención al público</p>
             <p className="descripcion-puesto">
@@ -58,7 +58,7 @@ const Experiencia = () => {
           <div className="timeline-content">
             <h3>Enero 2019-Abril 2019</h3>
             <span>
-              <b>Mercado La Galiciana</b>
+              <b>'Mercado La Galiciana'</b>
             </span>
             <p className="cargo">Cocinero y atención al público</p>
             <p className="descripcion-puesto">
@@ -74,7 +74,7 @@ const Experiencia = () => {
           <div className="timeline-content">
             <h3>Junio 2019-Nov 2019</h3>
             <span>
-              <b>Taste the Way</b>
+              <b>'Taste the Way'</b>
             </span>
             <p className="cargo">Cocinero</p>
             <p className="descripcion-puesto">

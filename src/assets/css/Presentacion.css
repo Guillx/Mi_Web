@@ -340,7 +340,7 @@
 
 @media only screen and (max-width: 500px) {
   .presentacion-titulo {
-    margin: -850px auto -30px auto;
+    margin: -770px auto -30px auto;
     font-size: 32px;
   }
 
@@ -366,14 +366,14 @@
 
 @media only screen and (max-width: 430px) {
   .presentacion-titulo {
-    margin: -900px auto -30px auto;
+    margin: -820px auto -30px auto;
     font-size: 32px;
   }
 }
 
 @media only screen and (max-width: 400px) {
   .presentacion-titulo {
-    margin: -900px auto -30px auto;
+    margin: -840px auto -30px auto;
     font-size: 32px;
   }
 
@@ -383,5 +383,12 @@
 
   .presentacion-video {
     height: 220px;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .presentacion-titulo {
+    margin: -870px auto -30px auto;
+    font-size: 32px;
   }
 }

@@ -1,5 +1,5 @@
 .portfolio-wrapper {
-  background-color: rgba(0, 0, 0, 0.96);
+  background-color: var(--primaryblack);
   padding: 3rem 0;
 }
 

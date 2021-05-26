@@ -71,7 +71,6 @@
   direction: ltr;
   font-family: "Montserrat", sans-serif;
   margin: 10px 0;
-  text-align: justify;
 }
 
 .timeline-content h3 {
@@ -90,15 +89,16 @@
 
 .timeline-content .cargo {
   line-height: 35px;
-  font-size: 18px;
-  color: rgb(66, 66, 66);
-  font-style: italic;
-}
-.timeline-content .descripcion-puesto {
-  line-height: 35px;
   font-size: 17px;
   color: rgb(66, 66, 66);
+}
+
+.timeline-content .descripcion-puesto {
+  line-height: 35px;
+  font-size: 16px;
+  color: rgb(66, 66, 66);
   font-style: italic;
+  text-align: justify;
 }
 
 /********** QUERIES *********/
@@ -147,6 +147,10 @@
     direction: ltr;
   }
 
+  .timeline-content {
+    width: 100%;
+  }
+
   .marker {
     display: none;
   }
@@ -155,11 +159,6 @@
     margin: -50px auto;
   }
 }
-/* 
-@media only screen and (max-width: 950px) {
-  .experiencia-titulo {
-  }
-} */
 
 @media only screen and (max-width: 840px) {
   .experiencia-titulo {
@@ -193,8 +192,86 @@
 @media only screen and (max-width: 500px) {
   .experiencia-titulo {
     font-size: 32px;
+    width: 75%;
+  }
+
+  .timeline-content {
+    width: 100%;
+
+    padding: 5px 10px;
+  }
+
+  .timeline-content h3 {
+    margin-top: 0rem;
+
+    font-size: 23px;
+  }
+
+  .timeline-content span {
+    margin-top: 0rem;
+
+    font-size: 16px;
+  }
+
+  .timeline-content .cargo {
+    line-height: 35px;
+    font-size: 15px;
+    color: rgb(66, 66, 66);
+  }
+
+  .timeline-content .descripcion-puesto {
+    line-height: 30px;
+    font-size: 15px;
+    text-align: justify;
   }
 }
 
 @media only screen and (max-width: 400px) {
+  .experiencia-titulo {
+    font-size: 32px;
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 366px) {
+  .timeline-content h3 {
+    font-size: 21px;
+  }
+
+  .timeline-content span {
+    font-size: 15px;
+  }
+
+  .timeline-content .cargo {
+    font-size: 14px;
+  }
+
+  .timeline-content .descripcion-puesto {
+    line-height: 25px;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 345px) {
+  .experiencia-titulo {
+    font-size: 32px;
+    width: 90%;
+  }
+
+  .timeline-content h3 {
+    font-size: 19px;
+  }
+
+  .timeline-content span {
+    font-size: 15px;
+  }
+
+  .timeline-content .cargo {
+    font-size: 14px;
+  }
+
+  .timeline-content .descripcion-puesto {
+    line-height: 25px;
+    font-size: 14px;
+  }
 }
