@@ -89,11 +89,19 @@ const Footer = () => {
           </div>
           <div className="links-social-footer">
             <div className="d-flex">
-              <a href="https://github.com/Guillx">
+              <a
+                href="https://github.com/Guillx"
+                target="_BLANK"
+                rel="noopener noreferrer"
+              >
                 <img className="icon-footer" src={githubicon} alt=""></img>
                 <p>GitHub</p>
               </a>
-              <a href="https://www.linkedin.com/in/guillermo-gil-vazquez-link/">
+              <a
+                target="_BLANK"
+                rel="noopener noreferrer"
+                href="https://www.linkedin.com/in/guillermo-gil-vazquez-link/"
+              >
                 <img className="icon-footer" src={linkedinicon} alt=""></img>
                 <p>Linkedin</p>
               </a>

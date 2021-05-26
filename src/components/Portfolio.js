@@ -4,6 +4,9 @@ import picmovies from "../assets/images/pic-movies.png";
 import gifs from "../assets/images/gifs.png";
 import leicadesign from "../assets/images/leicadesign.png";
 import fakebook from "../assets/images/fakebook-app.png";
+import citas from "../assets/images/citas-app.png";
+import presupuesto from "../assets/images/presupuesto-app.png";
+import clima from "../assets/images/clima-app.png";
 
 // FONT AWESOME
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -150,6 +153,104 @@ const Portfolio = () => {
     PopupboxManager.open({ content });
   };
 
+  // proyecto 5
+  const openPopupboxProyecto5 = () => {
+    const content = (
+      <div className="portfolio-popupbox-container">
+        <h2 className="titulo-portfolio-popupbox">Citas Vacunación</h2>
+        <iframe
+          className="video-portfolio-popupbox"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/QqMzLXV2Idk"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+        <p className="portfolio-text-popupbox">
+          Proyecto para practicar React. Está orientado a profesionales
+          sanitarios para la organización de citas de vacunación. <br></br>
+        </p>
+        <b>GitHub: </b>
+        <a
+          href="https://github.com/Guillx/gestor-citas"
+          className="hyper-link-popupbox"
+          onClick={() => window.open("https://github.com/Guillx/gestor-citas")}
+        >
+          https://github.com/Guillx/gestor-citas
+        </a>
+      </div>
+    );
+    PopupboxManager.open({ content });
+  };
+
+  // proyecto 6
+  const openPopupboxProyecto6 = () => {
+    const content = (
+      <div className="portfolio-popupbox-container">
+        <h2 className="titulo-portfolio-popupbox">Control de Presupuesto</h2>
+        <iframe
+          className="video-portfolio-popupbox"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/mk1p0BOUphg"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+        <p className="portfolio-text-popupbox">
+          Proyecto para practicar React. Se trata de una web para hacer un
+          control del presupuesto semanal.
+        </p>
+        <b>GitHub: </b>
+        <a
+          href="https://github.com/Guillx/control-presupuesto"
+          className="hyper-link-popupbox"
+          onClick={() =>
+            window.open("https://github.com/Guillx/control-presupuesto")
+          }
+        >
+          https://github.com/Guillx/control-presupuesto
+        </a>
+      </div>
+    );
+    PopupboxManager.open({ content });
+  };
+
+  // proyecto 7
+  const openPopupboxProyecto7 = () => {
+    const content = (
+      <div className="portfolio-popupbox-container">
+        <h2 className="titulo-portfolio-popupbox">Clima</h2>
+        <iframe
+          className="video-portfolio-popupbox"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/tgHf0SJO-Wg"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+        <p className="portfolio-text-popupbox">
+          Proyecto para practicar React. Se trata de una web para ver el clima
+          de diferentes partes del mundo utilizando la API de OpenWeatherMap.
+        </p>
+        <b>GitHub: </b>
+        <a
+          href="https://github.com/Guillx/clima-app"
+          className="hyper-link-popupbox"
+          onClick={() => window.open("https://github.com/Guillx/clima-app")}
+        >
+          https://github.com/Guillx/clima-app
+        </a>
+      </div>
+    );
+    PopupboxManager.open({ content });
+  };
+
   return (
     <div id="portfolio" className="portfolio-wrapper">
       <div className="portfolio-texto-container">
@@ -192,6 +293,33 @@ const Portfolio = () => {
 
           <div className="portfolio-image-box" onClick={openPopupboxProyecto4}>
             <img className="portfolio-image" src={fakebook} alt=""></img>
+            <div className="overflow"></div>
+            <FontAwesomeIcon
+              className="portfolio-icon"
+              icon={faSearchPlus}
+            ></FontAwesomeIcon>
+          </div>
+
+          <div className="portfolio-image-box" onClick={openPopupboxProyecto5}>
+            <img className="portfolio-image" src={citas} alt=""></img>
+            <div className="overflow"></div>
+            <FontAwesomeIcon
+              className="portfolio-icon"
+              icon={faSearchPlus}
+            ></FontAwesomeIcon>
+          </div>
+
+          <div className="portfolio-image-box" onClick={openPopupboxProyecto6}>
+            <img className="portfolio-image" src={presupuesto} alt=""></img>
+            <div className="overflow"></div>
+            <FontAwesomeIcon
+              className="portfolio-icon"
+              icon={faSearchPlus}
+            ></FontAwesomeIcon>
+          </div>
+
+          <div className="portfolio-image-box" onClick={openPopupboxProyecto7}>
+            <img className="portfolio-image" src={clima} alt=""></img>
             <div className="overflow"></div>
             <FontAwesomeIcon
               className="portfolio-icon"

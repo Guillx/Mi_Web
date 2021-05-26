@@ -66,23 +66,30 @@ const Presentacion = () => {
       <h1 className="presentacion-titulo">Presentación</h1>
       <p className="presentacion-texto">
         ¡Hola, me llamo Guille! <br></br>
-        Hasta que llegó el Covid trabajaba de cocinero, pero al ver que la
-        "nueva normalidad" iba para largo, en septiembre de 2020 me puse a
-        estudiar un Bootcamp de programación web, sin saber muy bien dónde me
-        metía, ya que no tenía ni idea de como se hacía una página web. Tras
-        unos meses, he descubierto un mundo nuevo, que me gusta y en el que
-        quiero quedarme. <br></br>
-        <br></br> Con tan solo 4 meses de aprendizaje, he conseguido sacar
+        Hasta que llegó el Covid trabajaba de cocinero, pero en octubre de 2020,
+        al ver que la nueva normalidad iba para largo, empecé a estudiar un
+        Bootcamp de programación web.<br></br> Mis conocimientos sobre esta
+        materia eran nulos y no tenía muy claro dónde me estaba metiendo, pero
+        pasados unos meses, puedo decir que he descubierto un mundo nuevo, que
+        me gusta y en el que quiero quedarme.
+        <br></br>
+        {/* <br></br>Con tan solo 4 meses de aprendizaje, he conseguido sacar
         adelante un proyecto que considero bastante grande e importante para ser
-        el primero.<br></br>
-        <br></br>A continuación te presento mi proyecto de fin de Bootcamp: una
-        aplicación web de compra y venta de tecnología retro.
+        el primero.<br></br> */}
+        <br></br>A continuación, te presento mi proyecto de fin de Bootcamp: una
+        aplicación web de compra y venta de tecnología retro, dónde los usuarios
+        pueden ver una serie de anuncios ordenados por categorías y comprar el
+        que más les interese, o publicar su propio anuncio para vender un
+        producto.
         <br></br>
         Este proyecto fue realizado en poco más de 2 meses y partiendo de cero.
         Entre un compañero de clase y yo hemos creado la base de datos, el Back
-        End y el Front End. En el vídeo que aparece a continuación podrás ver
-        "RetroTech" en funcionamiento y, además, podrás conocerme un poco mejor.
+        End y el Front End. <br></br>En el vídeo que aparece a continuación
+        podrás ver "RetroTech" en funcionamiento y también podrás conocerme un
+        poco mejor.
         <br></br>
+        También te recomiendo visitar el enlace que aparece debajo del vídeo
+        para saber más cosas sobre mí. <br></br>
         <br></br>No me enrollo más. ¡Dale al PLAY!
       </p>
       <div className="presentacion-video-container">
@@ -96,7 +103,7 @@ const Presentacion = () => {
       </div>
 
       <p className="presentacion-texto-under">
-        ➡️ ➡️ ➡️ ➡️ ➡️ Si quieres saber más cosas sobre mi, haz clic{" "}
+        Si quieres saber más cosas sobre mi, haz clic{" "}
         <span
           className="link-presentacion-texto"
           href="/"

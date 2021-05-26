@@ -1,5 +1,5 @@
 .portfolio-wrapper {
-  background-color: rgb(5, 6, 8, 0.9);
+  background-color: rgba(0, 0, 0, 0.96);
   padding: 3rem 0;
 }
 
@@ -29,6 +29,12 @@
   font-weight: 200;
   color: white;
 }
+
+.portfolio-cards-container {
+  width: 75%;
+  margin: auto;
+}
+
 .row {
   margin-right: 0;
   margin-left: 0;
@@ -170,11 +176,12 @@
 
 /********** QUERIES *********/
 
-/* @media only screen and (max-width: 1800px) {
-  .portfolio-texto {
-    font-size: 20px;
+@media only screen and (max-width: 1800px) {
+  .portfolio-cards-container {
+    width: 90%;
+    margin: auto;
   }
-} */
+}
 
 @media only screen and (max-width: 1500px) {
   .video-portfolio-popupbox {
@@ -263,6 +270,43 @@
 
     font-size: 18px;
     line-height: 30px;
+  }
+}
+
+@media only screen and (max-width: 746px) {
+  .portfolio-image {
+    width: 30rem;
+    height: 17rem;
+
+    margin: 5px auto 0px auto;
+  }
+
+  .portfolio-image-box {
+    margin: 10px;
+  }
+
+  .overflow {
+    display: none;
+  }
+
+  .portfolio-icon {
+    display: none;
+  }
+
+  .portfolio-icon:hover {
+    margin-left: -165px;
+    margin-top: 95px;
+  }
+
+  .portfolio-popupbox-container {
+    max-height: 75vh;
+    width: 68vw;
+    text-align: center;
+  }
+
+  .video-portfolio-popupbox {
+    width: 95%;
+    height: 300px;
   }
 }
 

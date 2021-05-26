@@ -1,10 +1,11 @@
 .header-container {
   display: flex;
+  height: 1100px;
+  border-top: 80px solid black;
 }
 
 .header-container video {
   width: 100%;
-  border-top: 80px solid black;
 }
 
 .video-container video {
@@ -14,8 +15,7 @@
 
 .header-content {
   width: 40%;
-
-  margin: 300px auto auto 150px;
+  margin: 250px auto auto 150px;
   padding: 0px 10px;
 }
 
@@ -123,13 +123,16 @@
 }
 
 @media only screen and (max-width: 1000px) {
+  .header-container {
+    border-top: 60px solid black;
+  }
+
   .header-content {
-    margin: 150px auto auto 100px;
+    margin: 120px auto auto 100px;
   }
 
   .header-container video {
     width: 100%;
-    border-top: 60px solid black;
   }
 
   .header-title {
@@ -153,11 +156,11 @@
   }
 }
 
-@media only screen and (max-width: 830px) {
+@media only screen and (max-width: 840px) {
   .header-content {
     width: 60%;
 
-    margin: 150px auto auto 100px;
+    margin: 100px auto auto 100px;
     padding: 0px 10px;
   }
 
@@ -177,9 +180,9 @@
   }
 }
 
-@media only screen and (max-width: 710px) {
+@media only screen and (max-width: 770px) {
   .header-content {
-    margin: 130px auto auto 100px;
+    margin: 80px auto auto 100px;
   }
 
   .header-title {
@@ -204,7 +207,7 @@
   }
 }
 
-@media only screen and (max-width: 630px) {
+@media only screen and (max-width: 660px) {
   .header-container video {
     width: 100%;
   }
@@ -212,12 +215,12 @@
   .header-content {
     width: 70%;
 
-    margin: 100px auto auto 50px;
+    margin: 50px auto auto 50px;
     padding: 0px 10px;
   }
 }
 
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 600px) {
   .header-container video {
     width: 100%;
     border-top: none;
@@ -231,7 +234,10 @@
   }
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 582px) {
+  .header-container {
+    border-top: none;
+  }
   .header-container video {
     width: 100%;
     border: none;
@@ -262,8 +268,6 @@
 
     padding: 7px 20px;
     margin: 0;
-
-    background-color: rgb(67, 169, 57);
   }
 }
 
@@ -292,8 +296,6 @@
 
     padding: 6px 15px;
     margin: 0;
-
-    background-color: rgb(67, 169, 57);
   }
 }
 
@@ -326,7 +328,7 @@
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 410px) {
   .header-content {
     margin: 30px auto auto 40px;
   }

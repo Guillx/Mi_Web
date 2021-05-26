@@ -1,5 +1,5 @@
 .habilidades-container {
-  background-color: rgb(5, 6, 8, 0.9);
+  background-color: rgba(0, 0, 0, 0.96);
   color: white;
   padding-bottom: 20px;
 }
@@ -53,9 +53,8 @@
   font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   font-size: 19px;
-  border-bottom: 1px solid white;
-  padding-bottom: 17px;
-  border-radius: 25px;
+
+  padding-bottom: 15px;
 }
 
 .bars-info {
@@ -85,7 +84,7 @@
 }
 
 .html::before {
-  width: 50%;
+  width: 70%;
 }
 
 .css::before {
@@ -93,23 +92,23 @@
 }
 
 .js::before {
-  width: 30%;
+  width: 40%;
 }
 
 .sql::before {
-  width: 30%;
+  width: 40%;
 }
 
 .node::before {
-  width: 30%;
+  width: 40%;
 }
 
 .react::before {
-  width: 40%;
+  width: 50%;
 }
 
 .figma::before {
-  width: 40%;
+  width: 50%;
 }
 .atencioncliente::before {
   width: 90%;
@@ -124,7 +123,7 @@
 }
 
 .ingles::before {
-  width: 60%;
+  width: 70%;
 }
 
 .aleman::before {

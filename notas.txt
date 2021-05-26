@@ -8,3 +8,22 @@ npm i node-sass para el error con el swiper
 ICONS LINKEDIN ETC
 video portfolio component #2
 services component
+
+Para volver a subir la web a github pages:
+borrar carpeta build
+hacer los cambios
+subirlos a github 
+ejecutar npm run build
+y ejecutar npm run deploy
+
+Hacer reto para la web:
+15 días 15 proyectos 
+con los proyectos del curso de udemy
+
+crear un <Link to="/mas-proyectos">
+y poner los 15 proyectos en una página diferente al portfolio
+poner debajo del portfolio "RETO 15 DÍAS 15 PROYECTOS. ¡NO TE LO PIERDAS!"
+
+
+al darle clic se abre un modal con info, vídeo del proyecto, FECHA de realización etc.
+en orden, en cards, con un modal como en el portfolio

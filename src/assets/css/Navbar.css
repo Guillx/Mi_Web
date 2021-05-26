@@ -1,7 +1,7 @@
 .navbar-container {
   height: 80px;
   width: 100%;
-  padding: 0px 100px 0px 100px;
+  /* padding: 0px 100px 0px 100px; */
 
   border-top: 4px solid var(--primarygreen);
   border-bottom: 1px solid rgba(255, 255, 255, 0.158);
@@ -46,7 +46,7 @@
 } */
 
 .navbar-links-container {
-  margin: 25px auto;
+  margin: 23px auto;
   padding: 5px;
   font-family: "Poppins", sans-serif;
   text-align: right;
@@ -168,7 +168,7 @@
   }
 }
 
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 582px) {
   .navbar-container {
     display: none;
   }
