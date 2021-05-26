@@ -1,33 +1,36 @@
 {
   "files": {
-    "main.css": "/guillx_web/static/css/main.6b310186.chunk.css",
-    "main.js": "/guillx_web/static/js/main.6c0a2c84.chunk.js",
-    "main.js.map": "/guillx_web/static/js/main.6c0a2c84.chunk.js.map",
+    "main.css": "/guillx_web/static/css/main.1f04f77c.chunk.css",
+    "main.js": "/guillx_web/static/js/main.4b3e1eee.chunk.js",
+    "main.js.map": "/guillx_web/static/js/main.4b3e1eee.chunk.js.map",
     "runtime-main.js": "/guillx_web/static/js/runtime-main.8a1b93d2.js",
     "runtime-main.js.map": "/guillx_web/static/js/runtime-main.8a1b93d2.js.map",
     "static/css/2.301e199a.chunk.css": "/guillx_web/static/css/2.301e199a.chunk.css",
-    "static/js/2.97c223df.chunk.js": "/guillx_web/static/js/2.97c223df.chunk.js",
-    "static/js/2.97c223df.chunk.js.map": "/guillx_web/static/js/2.97c223df.chunk.js.map",
+    "static/js/2.b93148a2.chunk.js": "/guillx_web/static/js/2.b93148a2.chunk.js",
+    "static/js/2.b93148a2.chunk.js.map": "/guillx_web/static/js/2.b93148a2.chunk.js.map",
     "static/js/3.d62f275d.chunk.js": "/guillx_web/static/js/3.d62f275d.chunk.js",
     "static/js/3.d62f275d.chunk.js.map": "/guillx_web/static/js/3.d62f275d.chunk.js.map",
     "index.html": "/guillx_web/index.html",
     "static/css/2.301e199a.chunk.css.map": "/guillx_web/static/css/2.301e199a.chunk.css.map",
-    "static/css/main.6b310186.chunk.css.map": "/guillx_web/static/css/main.6b310186.chunk.css.map",
-    "static/js/2.97c223df.chunk.js.LICENSE.txt": "/guillx_web/static/js/2.97c223df.chunk.js.LICENSE.txt",
+    "static/css/main.1f04f77c.chunk.css.map": "/guillx_web/static/css/main.1f04f77c.chunk.css.map",
+    "static/js/2.b93148a2.chunk.js.LICENSE.txt": "/guillx_web/static/js/2.b93148a2.chunk.js.LICENSE.txt",
     "static/media/Presentacion.css": "/guillx_web/static/media/arrow1.7ea8dfc4.svg",
+    "static/media/citas-app.251e10a4.png": "/guillx_web/static/media/citas-app.251e10a4.png",
+    "static/media/clima-app.1aadf18a.png": "/guillx_web/static/media/clima-app.1aadf18a.png",
     "static/media/fakebook-app.56841f2d.png": "/guillx_web/static/media/fakebook-app.56841f2d.png",
     "static/media/gifs.75494111.png": "/guillx_web/static/media/gifs.75494111.png",
     "static/media/github.19cc3dd5.svg": "/guillx_web/static/media/github.19cc3dd5.svg",
     "static/media/leicadesign.fc9d1c54.png": "/guillx_web/static/media/leicadesign.fc9d1c54.png",
     "static/media/linkedin.9454878c.svg": "/guillx_web/static/media/linkedin.9454878c.svg",
     "static/media/pic-movies.99762e9a.png": "/guillx_web/static/media/pic-movies.99762e9a.png",
+    "static/media/presupuesto-app.c91d148c.png": "/guillx_web/static/media/presupuesto-app.c91d148c.png",
     "static/media/video-fondo-header.fc06187b.mp4": "/guillx_web/static/media/video-fondo-header.fc06187b.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.8a1b93d2.js",
     "static/css/2.301e199a.chunk.css",
-    "static/js/2.97c223df.chunk.js",
-    "static/css/main.6b310186.chunk.css",
-    "static/js/main.6c0a2c84.chunk.js"
+    "static/js/2.b93148a2.chunk.js",
+    "static/css/main.1f04f77c.chunk.css",
+    "static/js/main.4b3e1eee.chunk.js"
   ]
 }
