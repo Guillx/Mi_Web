@@ -155,11 +155,11 @@
     margin: -50px auto;
   }
 }
-
+/* 
 @media only screen and (max-width: 950px) {
   .experiencia-titulo {
   }
-}
+} */
 
 @media only screen and (max-width: 840px) {
   .experiencia-titulo {

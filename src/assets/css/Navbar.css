@@ -12,44 +12,11 @@
 
   z-index: 5;
 }
-/* 
-.logo-container {
-  width: 18%;
-  display: flex;
-  color: rgb(231, 230, 230);
-  cursor: pointer;
-
-  margin: 15px 0;
-}
-
-.logo-name a {
-  text-decoration: none;
-  color: white;
-  cursor: pointer;
-}
-
-.logo-img {
-  height: 55px;
-  width: 55px;
-  margin-top: -3px;
-}
-
-.logo-name {
-  font-family: "Bungee", cursive;
-  letter-spacing: 1.5px;
-  font-size: 37px;
-  margin: auto 0 auto 17px;
-  color: #fff;
-}
-.logo-name strong {
-  color: var(--primarygreen);
-} */
 
 .navbar-links-container {
   margin: 23px auto;
   padding: 5px;
   font-family: "Poppins", sans-serif;
-  text-align: right;
 }
 
 .navbar-links-ul {
@@ -76,6 +43,14 @@
   text-decoration: none;
   color: white;
   /* font-style: italic; */
+}
+
+.btn-navbar {
+  display: none;
+}
+
+#hidden {
+  display: flex;
 }
 
 /********** QUERIES *********/
@@ -160,18 +135,58 @@
   }
 }
 
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 700px) {
+  .navbar-container {
+    border-top: 2px solid var(--primarygreen);
+  }
+
+  .navbar-links-container {
+    margin: 0;
+
+    width: 100%;
+    justify-content: right;
+  }
+
+  .navbar-links-ul {
+    display: none;
+  }
+
+  .btn-navbar {
+    display: flex;
+    margin: 10px 30px;
+    font-size: 30px;
+    float: right;
+    color: white;
+  }
+
+  #hidden {
+    position: absolute;
+    right: 0;
+    top: 56px;
+    height: 390px;
+    width: 100%;
+    background-color: rgb(5, 6, 8, 0.9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar-links-li {
+    margin: 18px;
+  }
+
   .navbar-link {
-    font-size: 15px;
-    margin: auto 5px;
-    padding-right: 2px;
+    font-size: 16px;
   }
 }
 
+@media only screen and (max-width: 620px) {
+}
+
 @media only screen and (max-width: 582px) {
-  .navbar-container {
+  /* .navbar-container {
     display: none;
-  }
+  } */
 }
 
 /* 

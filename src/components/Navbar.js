@@ -3,8 +3,11 @@ import "../assets/css/Navbar.css";
 import { Link } from "react-scroll";
 import { useState } from "react";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+
 const Navbar = () => {
-  const [verMenu, setVerMenu] = useState(true);
+  const [verMenu, setVerMenu] = useState(false);
 
   return (
     <div className="navbar-container">
@@ -15,8 +18,8 @@ const Navbar = () => {
         </h2>
       </div> */}
       <nav className="navbar-links-container">
-        <ul className="navbar-links-ul">
-          <li className="navbar-links-li" id={verMenu ? "hidden" : ""}>
+        <ul className="navbar-links-ul" id={verMenu ? "hidden" : ""}>
+          <li className="navbar-links-li">
             <Link
               smooth={true}
               offset={0}
@@ -87,6 +90,12 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
+
+        <FontAwesomeIcon
+          className="btn-navbar"
+          icon={faBars}
+          onClick={() => setVerMenu(!verMenu)}
+        ></FontAwesomeIcon>
       </nav>
     </div>
   );
