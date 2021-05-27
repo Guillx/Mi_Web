@@ -73,10 +73,11 @@ const Experiencia = () => {
           <div className="marker"></div>
           <div className="timeline-content">
             <h3>Junio 2019-Nov 2019</h3>
-            <span>
+            <p className="empresa">
               <b>'Taste the Way'</b>
-            </span>
+            </p>
             <p className="cargo">Cocinero</p>
+
             <p className="descripcion-puesto">
               Me encargaba de la preparación de alimentos y mise en place en un
               restaurante de comida tradicional gallega en el Camino de

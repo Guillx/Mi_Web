@@ -39,6 +39,7 @@
   margin-right: 0;
   margin-left: 0;
 }
+
 .portfolio-image {
   width: 19rem;
   height: 12rem;
@@ -75,12 +76,12 @@
 }
 
 .portfolio-image-box:hover .overflow {
-  opacity: 75%;
+  opacity: 85%;
   transition: 0.3s ease-in-out;
 }
 
 .portfolio-icon {
-  color: var(--primarygreen);
+  color: white;
 
   position: absolute;
   opacity: 0;
