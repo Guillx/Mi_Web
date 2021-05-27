@@ -33,7 +33,7 @@ const Navbar = () => {
           <li className="navbar-links-li">
             <Link
               smooth={true}
-              offset={-115}
+              offset={-130}
               to="presentacion"
               href="/"
               className="navbar-link"
