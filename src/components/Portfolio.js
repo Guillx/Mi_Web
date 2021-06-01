@@ -6,7 +6,7 @@ import leicadesign from "../assets/images/leicadesign.png";
 import fakebook from "../assets/images/fakebook-app.png";
 import citas from "../assets/images/citas-app.png";
 import presupuesto from "../assets/images/presupuesto-app.png";
-import clima from "../assets/images/clima-app.png";
+// import clima from "../assets/images/clima-app.png";
 
 // FONT AWESOME
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
