@@ -96,7 +96,7 @@ const Portfolio = () => {
           allowFullScreen
         ></iframe>
         <p className="portfolio-text-popupbox">
-          Este proyecto ha sido creado para practicar CSS, Grid y HTML.<br></br>{" "}
+          Este proyecto ha sido creado para practicar CSS Grid y HTML.<br></br>{" "}
           Es una web de presentación de una cámara de fotos.
         </p>
         <b>GitHub: </b>
@@ -220,36 +220,36 @@ const Portfolio = () => {
   };
 
   // proyecto 7
-  const openPopupboxProyecto7 = () => {
-    const content = (
-      <div className="portfolio-popupbox-container">
-        <h2 className="titulo-portfolio-popupbox">Clima</h2>
-        <iframe
-          className="video-portfolio-popupbox"
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/tgHf0SJO-Wg"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
-        <p className="portfolio-text-popupbox">
-          Proyecto para practicar React. Se trata de una web para ver el clima
-          de diferentes partes del mundo utilizando la API de OpenWeatherMap.
-        </p>
-        <b>GitHub: </b>
-        <a
-          href="https://github.com/Guillx/clima-app"
-          className="hyper-link-popupbox"
-          onClick={() => window.open("https://github.com/Guillx/clima-app")}
-        >
-          https://github.com/Guillx/clima-app
-        </a>
-      </div>
-    );
-    PopupboxManager.open({ content });
-  };
+  // const openPopupboxProyecto7 = () => {
+  //   const content = (
+  //     <div className="portfolio-popupbox-container">
+  //       <h2 className="titulo-portfolio-popupbox">Clima</h2>
+  //       <iframe
+  //         className="video-portfolio-popupbox"
+  //         width="560"
+  //         height="315"
+  //         src="https://www.youtube.com/embed/tgHf0SJO-Wg"
+  //         title="YouTube video player"
+  //         frameborder="0"
+  //         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  //         allowFullScreen
+  //       ></iframe>
+  //       <p className="portfolio-text-popupbox">
+  //         Proyecto para practicar React. Se trata de una web para ver el clima
+  //         de diferentes partes del mundo utilizando la API de OpenWeatherMap.
+  //       </p>
+  //       <b>GitHub: </b>
+  //       <a
+  //         href="https://github.com/Guillx/clima-app"
+  //         className="hyper-link-popupbox"
+  //         onClick={() => window.open("https://github.com/Guillx/clima-app")}
+  //       >
+  //         https://github.com/Guillx/clima-app
+  //       </a>
+  //     </div>
+  //   );
+  //   PopupboxManager.open({ content });
+  // };
 
   return (
     <div id="portfolio" className="portfolio-wrapper">
@@ -318,14 +318,14 @@ const Portfolio = () => {
             ></FontAwesomeIcon>
           </div>
 
-          <div className="portfolio-image-box" onClick={openPopupboxProyecto7}>
+          {/* <div className="portfolio-image-box" onClick={openPopupboxProyecto7}>
             <img className="portfolio-image" src={clima} alt=""></img>
             <div className="overflow"></div>
             <FontAwesomeIcon
               className="portfolio-icon"
               icon={faSearchPlus}
             ></FontAwesomeIcon>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

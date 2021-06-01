@@ -1,6 +1,6 @@
 .header-container {
   display: flex;
-  height: 1114px;
+  height: 1100px;
   border-top: 80px solid black;
 }
 
@@ -15,7 +15,7 @@
 
 .header-content {
   width: 40%;
-  margin: 250px auto auto 150px;
+  margin: 240px auto auto 150px;
   padding: 0px 10px;
 }
 
@@ -41,7 +41,7 @@
 
 .header-typed-text {
   color: white;
-  font-size: 45px;
+  font-size: 40px;
   font-family: "Poppins", sans-serif;
 }
 

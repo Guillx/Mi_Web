@@ -63,18 +63,12 @@
 
 .timeline-content {
   width: 95%;
-  border: 2px solid rgb(41, 41, 41);
+  /* border: 2px solid rgb(41, 41, 41); */
   border-radius: 5px;
-  background: rgb(0, 0, 0);
-  background: linear-gradient(
-    144deg,
-    rgba(0, 0, 0, 0.82) 0%,
-    rgba(10, 10, 10, 0.8625333727241) 45%,
-    rgba(25, 25, 25, 1) 96%
-  );
+  background-color: rgb(241, 241, 241);
   box-shadow: 1px 1px 7px var(--primaryblack);
   padding: 5px 20px;
-  color: rgb(247, 240, 240);
+  color: var(--primaryblack);
   direction: ltr;
   font-family: "Montserrat", sans-serif;
   margin: 10px 0;
@@ -82,7 +76,7 @@
 
 .timeline-content h3 {
   margin-top: 0.3125rem;
-  color: rgba(255, 255, 255, 0.87);
+  color: var(--primaryblack);
 
   font-weight: 900;
   font-size: 25px;
@@ -90,7 +84,7 @@
 
 .timeline-content .empresa {
   margin-top: 0.3125rem;
-  color: rgba(252, 249, 249, 0.87);
+  color: var(--primaryblack);
   width: 100%;
   margin: 0;
   font-size: 18px;
@@ -99,8 +93,8 @@
 .timeline-content .cargo {
   line-height: 35px;
   font-size: 17px;
-  color: rgb(231, 225, 225);
-  border-bottom: 1px solid rgba(233, 231, 231, 0.534);
+  color: var(--primaryblack);
+  border-bottom: 1px solid var(--primaryblack);
   padding: 5px 10px;
   text-align: right;
 }
@@ -108,7 +102,7 @@
 .timeline-content .descripcion-puesto {
   line-height: 35px;
   font-size: 16px;
-  color: rgb(241, 241, 241);
+  color: var(--primaryblack);
   font-style: italic;
   text-align: justify;
 }
