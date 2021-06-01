@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/guillx_web/static/css/main.d88a103c.chunk.css",
-    "main.js": "/guillx_web/static/js/main.64477f79.chunk.js",
-    "main.js.map": "/guillx_web/static/js/main.64477f79.chunk.js.map",
+    "main.js": "/guillx_web/static/js/main.f82a57d4.chunk.js",
+    "main.js.map": "/guillx_web/static/js/main.f82a57d4.chunk.js.map",
     "runtime-main.js": "/guillx_web/static/js/runtime-main.8a1b93d2.js",
     "runtime-main.js.map": "/guillx_web/static/js/runtime-main.8a1b93d2.js.map",
     "static/css/2.301e199a.chunk.css": "/guillx_web/static/css/2.301e199a.chunk.css",
@@ -16,7 +16,6 @@
     "static/js/2.96454ebd.chunk.js.LICENSE.txt": "/guillx_web/static/js/2.96454ebd.chunk.js.LICENSE.txt",
     "static/media/Presentacion.css": "/guillx_web/static/media/arrow1.7ea8dfc4.svg",
     "static/media/citas-app.251e10a4.png": "/guillx_web/static/media/citas-app.251e10a4.png",
-    "static/media/clima-app.1aadf18a.png": "/guillx_web/static/media/clima-app.1aadf18a.png",
     "static/media/fakebook-app.56841f2d.png": "/guillx_web/static/media/fakebook-app.56841f2d.png",
     "static/media/gifs.75494111.png": "/guillx_web/static/media/gifs.75494111.png",
     "static/media/github.19cc3dd5.svg": "/guillx_web/static/media/github.19cc3dd5.svg",
@@ -31,6 +30,6 @@
     "static/css/2.301e199a.chunk.css",
     "static/js/2.96454ebd.chunk.js",
     "static/css/main.d88a103c.chunk.css",
-    "static/js/main.64477f79.chunk.js"
+    "static/js/main.f82a57d4.chunk.js"
   ]
 }
