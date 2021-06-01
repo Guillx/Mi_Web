@@ -73,9 +73,6 @@ const Presentacion = () => {
         metiendo, pero pasados unos meses, puedo decir que he descubierto un
         mundo nuevo, que me gusta y en el que quiero quedarme.
         <br></br>
-        {/* <br></br>Con tan solo 4 meses de aprendizaje, he conseguido sacar
-        adelante un proyecto que considero bastante grande e importante para ser
-        el primero.<br></br> */}
         <br></br>A continuación, te presento mi proyecto de fin de Bootcamp: una
         aplicación web de compra y venta de tecnología retro, dónde los usuarios
         pueden ver una serie de anuncios ordenados por categorías y comprar el
