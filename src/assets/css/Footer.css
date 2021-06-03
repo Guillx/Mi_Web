@@ -49,6 +49,10 @@
   color: rgb(85, 84, 84);
 }
 
+.contador-visitas {
+  margin: 20px;
+}
+
 /********** QUERIES *********/
 
 @media only screen and (max-width: 1200px) {
