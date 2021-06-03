@@ -15,7 +15,7 @@ const Habilidades = () => {
         <div className="habilidades-bars">
           <div className="bars-info">
             <span className="bars-info-titulo">HTML</span>
-            <span className="bars-info-percent">70%</span>
+            <span className="bars-info-percent">75%</span>
           </div>
           <div className="line html"></div>
         </div>
@@ -23,7 +23,7 @@ const Habilidades = () => {
         <div className="habilidades-bars">
           <div className="bars-info">
             <span className="bars-info-titulo">CSS</span>
-            <span className="bars-info-percent">50%</span>
+            <span className="bars-info-percent">60%</span>
           </div>
           <div className="line css"></div>
         </div>
@@ -31,9 +31,17 @@ const Habilidades = () => {
         <div className="habilidades-bars">
           <div className="bars-info">
             <span className="bars-info-titulo">JavaScript</span>
-            <span className="bars-info-percent">40%</span>
+            <span className="bars-info-percent">50%</span>
           </div>
           <div className="line js"></div>
+        </div>
+
+        <div className="habilidades-bars">
+          <div className="bars-info">
+            <span className="bars-info-titulo">React JS</span>
+            <span className="bars-info-percent">50%</span>
+          </div>
+          <div className="line react"></div>
         </div>
 
         <div className="habilidades-bars">
@@ -50,14 +58,6 @@ const Habilidades = () => {
             <span className="bars-info-percent">40%</span>
           </div>
           <div className="line node"></div>
-        </div>
-
-        <div className="habilidades-bars">
-          <div className="bars-info">
-            <span className="bars-info-titulo">React JS</span>
-            <span className="bars-info-percent">50%</span>
-          </div>
-          <div className="line react"></div>
         </div>
 
         <div className="habilidades-bars">

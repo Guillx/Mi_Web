@@ -114,6 +114,10 @@
   }
 }
 @media only screen and (max-width: 1250px) {
+  .contacto-titulo {
+    width: 70%;
+  }
+
   .contacto-texto {
     width: 70%;
   }
@@ -199,8 +203,9 @@
 
 @media only screen and (max-width: 710px) {
   .contacto-titulo {
-    font-size: 38px;
+    font-size: 38px !important;
     padding-bottom: 0px;
+    width: 75%;
   }
 
   .contacto-texto {
@@ -212,12 +217,13 @@
 
 @media only screen and (max-width: 600px) {
   .contacto-titulo {
-    font-size: 35px;
+    font-size: 35px !important;
+    width: 80%;
   }
 
   .contacto-texto {
     font-size: 15px !important;
-    line-height: 30px;
+
     width: 80%;
   }
 
@@ -245,13 +251,12 @@
 
 @media only screen and (max-width: 500px) {
   .contacto-titulo {
-    font-size: 32px;
+    font-size: 30px !important;
   }
 
   .contacto-texto {
     font-size: 15px !important;
-    line-height: 25px;
-    width: 80%;
+    line-height: 25px !important;
   }
 
   .contacto-container input,
@@ -276,12 +281,6 @@
 
   .swal button {
     width: 100%;
-  }
-}
-
-@media only screen and (max-width: 400px) {
-  .btn-main-offer {
-    margin-left: 36px;
   }
 }
 

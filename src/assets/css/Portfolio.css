@@ -217,6 +217,9 @@
 }
 
 @media only screen and (max-width: 1250px) {
+  .portfolio-titulo {
+    width: 70%;
+  }
   .portfolio-texto {
     width: 70%;
   }
@@ -365,6 +368,7 @@
 @media only screen and (max-width: 610px) {
   .portfolio-titulo {
     font-size: 35px;
+    width: 80%;
   }
 
   .portfolio-texto {
@@ -406,13 +410,12 @@
 
 @media only screen and (max-width: 500px) {
   .portfolio-titulo {
-    font-size: 32px;
+    font-size: 30px;
   }
 
   .portfolio-texto {
     font-size: 15px;
-    line-height: 30px;
-    width: 80%;
+    line-height: 27px;
   }
 }
 

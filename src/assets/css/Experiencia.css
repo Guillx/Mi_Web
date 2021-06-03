@@ -93,7 +93,8 @@
 .timeline-content .cargo {
   line-height: 35px;
   font-size: 17px;
-  color: var(--primaryblack);
+  color: rgba(10, 10, 10, 0.781);
+  font-style: italic;
   border-bottom: 1px solid var(--primaryblack);
   padding: 5px 10px;
   text-align: right;
@@ -183,6 +184,7 @@
 @media only screen and (max-width: 600px) {
   .experiencia-titulo {
     font-size: 35px;
+    width: 80%;
   }
 
   .timeline-content h3 {
@@ -197,7 +199,7 @@
 
 @media only screen and (max-width: 500px) {
   .experiencia-titulo {
-    font-size: 32px;
+    font-size: 30px;
     width: 75%;
   }
 

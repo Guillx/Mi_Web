@@ -84,15 +84,19 @@
 }
 
 .html::before {
-  width: 70%;
+  width: 75%;
 }
 
 .css::before {
-  width: 50%;
+  width: 60%;
 }
 
 .js::before {
-  width: 40%;
+  width: 50%;
+}
+
+.react::before {
+  width: 50%;
 }
 
 .sql::before {
@@ -101,10 +105,6 @@
 
 .node::before {
   width: 40%;
-}
-
-.react::before {
-  width: 50%;
 }
 
 .figma::before {
@@ -141,6 +141,10 @@
 /********** QUERIES *********/
 
 @media only screen and (max-width: 1250px) {
+  .habilidades-titulo {
+    width: 70%;
+  }
+
   .habilidades-texto {
     width: 70%;
   }
@@ -177,6 +181,7 @@
   .habilidades-titulo {
     font-size: 40px;
     padding-bottom: 5px;
+    width: 75%;
   }
 
   .habilidades-texto {
@@ -235,6 +240,7 @@
   .habilidades-titulo {
     font-size: 35px;
     margin: 20px auto;
+    width: 80%;
   }
 
   .habilidades-texto {
@@ -265,13 +271,12 @@
 
 @media only screen and (max-width: 500px) {
   .habilidades-titulo {
-    font-size: 32px;
+    font-size: 30px;
   }
 
   .habilidades-texto {
     font-size: 15px;
-    line-height: 30px;
-    width: 80%;
+    line-height: 27px;
     text-align: left;
   }
 

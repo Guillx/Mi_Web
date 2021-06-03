@@ -164,6 +164,7 @@
 @media only screen and (max-width: 1250px) {
   .presentacion-titulo {
     margin: -300px auto -20px auto;
+    width: 70%;
   }
 
   .presentacion-texto {
@@ -241,6 +242,7 @@
     margin: -600px auto -20px auto;
     font-size: 40px;
     padding-bottom: 5px;
+    width: 70%;
   }
 
   .presentacion-texto {
@@ -270,6 +272,7 @@
     margin: -650px auto -20px auto;
     font-size: 38px;
     padding-bottom: 0px;
+    width: 75%;
   }
 
   .presentacion-texto {
@@ -314,6 +317,7 @@
   .presentacion-titulo {
     margin: -750px auto -30px auto;
     font-size: 35px;
+    width: 80%;
   }
 
   .presentacion-texto {
@@ -340,14 +344,12 @@
 
 @media only screen and (max-width: 500px) {
   .presentacion-titulo {
-    margin: -770px auto -30px auto;
-    font-size: 32px;
+    margin: -780px auto -30px auto;
+    font-size: 30px;
   }
 
   .presentacion-texto {
-    font-size: 15px;
     line-height: 25px;
-    width: 80%;
   }
   .presentacion-texto-under {
     font-size: 15px;
