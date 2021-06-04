@@ -6,7 +6,7 @@ import leicadesign from "../assets/images/leicadesign.png";
 import fakebook from "../assets/images/fakebook-app.png";
 import citas from "../assets/images/citas-app.png";
 import presupuesto from "../assets/images/presupuesto-app.png";
-// import clima from "../assets/images/clima-app.png";
+import retrotech from "../assets/images/retrotech.png";
 
 // FONT AWESOME
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -17,6 +17,41 @@ import { PopupboxManager, PopupboxContainer } from "react-popupbox";
 import "react-popupbox/dist/react-popupbox.css";
 
 const Portfolio = () => {
+  // proyecto 0
+  const openPopupboxProyecto0 = () => {
+    const content = (
+      <div className="portfolio-popupbox-container">
+        <h2 className="titulo-portfolio-popupbox">RetroTech</h2>
+        <iframe
+          className="video-portfolio-popupbox"
+          src="https://www.youtube.com/embed/wMkquNbgk-0"
+          title="YouTube video player"
+          frameborder="0"
+          allowFullScreen
+        ></iframe>
+        <p className="portfolio-text-popupbox">
+          Este es mi proyecto de fin de Bootcamp: una plataforma de compra y
+          venta de tecnología retro.<br></br> Todos los usuarios pueden ver una
+          serie de anuncios ordenados por categorías. A su vez, un usuario
+          registrado puede publicar un anuncio para vender un producto. Ambos
+          usuarios (comprador y vendedor) se pueden poner en contacto mediante
+          un sistema de mensajería, dónde pueden fijar una fecha y lugar de
+          entrega.
+        </p>
+
+        <b>GitHub: </b>
+        <a
+          href="https://github.com/Guillx/RetroTech"
+          className="hyper-link-popupbox"
+          onClick={() => window.open("https://github.com/Guillx/RetroTech")}
+        >
+          https://github.com/Guillx/RetroTech
+        </a>
+      </div>
+    );
+    PopupboxManager.open({ content });
+  };
+
   // proyecto 1
   const openPopupboxProyecto1 = () => {
     const content = (
@@ -264,6 +299,15 @@ const Portfolio = () => {
       </div>
       <div className="portfolio-cards-container">
         <div className="image-box-wrapper row justify-content-center">
+          <div className="portfolio-image-box" onClick={openPopupboxProyecto0}>
+            <img className="portfolio-image" src={retrotech} alt=""></img>
+            <div className="overflow"></div>
+            <FontAwesomeIcon
+              className="portfolio-icon"
+              icon={faSearchPlus}
+            ></FontAwesomeIcon>
+          </div>
+
           <div className="portfolio-image-box" onClick={openPopupboxProyecto1}>
             <img className="portfolio-image" src={picmovies} alt=""></img>
             <div className="overflow"></div>
