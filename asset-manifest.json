@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/guillx_web/static/css/main.aa9ab308.chunk.css",
-    "main.js": "/guillx_web/static/js/main.d493bde9.chunk.js",
-    "main.js.map": "/guillx_web/static/js/main.d493bde9.chunk.js.map",
+    "main.js": "/guillx_web/static/js/main.e1dd9072.chunk.js",
+    "main.js.map": "/guillx_web/static/js/main.e1dd9072.chunk.js.map",
     "runtime-main.js": "/guillx_web/static/js/runtime-main.8a1b93d2.js",
     "runtime-main.js.map": "/guillx_web/static/js/runtime-main.8a1b93d2.js.map",
     "static/css/2.301e199a.chunk.css": "/guillx_web/static/css/2.301e199a.chunk.css",
@@ -23,6 +23,7 @@
     "static/media/linkedin.9454878c.svg": "/guillx_web/static/media/linkedin.9454878c.svg",
     "static/media/pic-movies.99762e9a.png": "/guillx_web/static/media/pic-movies.99762e9a.png",
     "static/media/presupuesto-app.c91d148c.png": "/guillx_web/static/media/presupuesto-app.c91d148c.png",
+    "static/media/retrotech.1ff089a6.png": "/guillx_web/static/media/retrotech.1ff089a6.png",
     "static/media/video-fondo-header.fc06187b.mp4": "/guillx_web/static/media/video-fondo-header.fc06187b.mp4"
   },
   "entrypoints": [
@@ -30,6 +31,6 @@
     "static/css/2.301e199a.chunk.css",
     "static/js/2.96454ebd.chunk.js",
     "static/css/main.aa9ab308.chunk.css",
-    "static/js/main.d493bde9.chunk.js"
+    "static/js/main.e1dd9072.chunk.js"
   ]
 }
